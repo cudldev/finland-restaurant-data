@@ -21,15 +21,257 @@
         {
           "source": "pancho-villa-official-location",
           "url": "https://panchovilla.fi/ravintolat/helsinki-malmi/",
-          "fields": ["name", "branch", "city", "address", "website", "menuUrl"],
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
           "checkedAt": "2026-10-26"
         },
         {
           "source": "pancho-villa-official-menu-feed",
           "url": "https://panchovilla.fi/menu/feed/",
-          "fields": ["menuFeed", "menuFeedType"],
+          "fields": [
+            "menuFeed",
+            "menuFeedType"
+          ],
           "checkedAt": "2026-10-25",
           "note": "General menu/product feed, not a daily lunch feed."
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:pancho-villa-sello",
+      "name": "Pancho Villa",
+      "branch": "Sello",
+      "city": "Espoo",
+      "address": {
+        "street": "Leppävaarankatu 3",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/espoo-sello/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/espoo-sello/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-branch-page",
+          "url": "https://panchovilla.fi/ravintolat/espoo-sello/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:pancho-villa-redi",
+      "name": "Pancho Villa",
+      "branch": "Redi",
+      "city": "Helsinki",
+      "address": {
+        "street": "Hermannin rantatie 5",
+        "postalCode": "00540",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/helsinki-redi/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/helsinki-redi/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-branch-page",
+          "url": "https://panchovilla.fi/ravintolat/helsinki-redi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:pancho-villa-tripla",
+      "name": "Pancho Villa",
+      "branch": "Tripla",
+      "city": "Helsinki",
+      "address": {
+        "street": "Fredikanterassi 1",
+        "postalCode": "00520",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/helsinki-tripla/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/helsinki-tripla/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-branch-page",
+          "url": "https://panchovilla.fi/ravintolat/helsinki-tripla/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:pancho-villa-jumbo",
+      "name": "Pancho Villa",
+      "branch": "Jumbo",
+      "city": "Vantaa",
+      "address": {
+        "street": "Vantaanportinkatu 3",
+        "postalCode": "01510",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/vantaa-jumbo/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/vantaa-jumbo/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-branch-page",
+          "url": "https://panchovilla.fi/ravintolat/vantaa-jumbo/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:pancho-villa-kivisto",
+      "name": "Pancho Villa",
+      "branch": "Kivistö",
+      "city": "Vantaa",
+      "address": {
+        "street": "Topaasikuja 8",
+        "postalCode": "01700",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/vantaa-kivisto/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/vantaa-kivisto/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-branch-page",
+          "url": "https://panchovilla.fi/ravintolat/vantaa-kivisto/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:pancho-villa-tikkurila",
+      "name": "Pancho Villa",
+      "branch": "Tikkurila",
+      "city": "Vantaa",
+      "address": {
+        "street": "Asematie 12 b",
+        "postalCode": "01300",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/vantaa-tikkurila/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/vantaa-tikkurila/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-branch-page",
+          "url": "https://panchovilla.fi/ravintolat/vantaa-tikkurila/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:puttes-tikkurila",
+      "name": "Putte's Bar & Pizza",
+      "branch": "Tikkurila",
+      "city": "Vantaa",
+      "address": {
+        "street": "Asematie 12 a",
+        "postalCode": "01300",
+        "country": "FI"
+      },
+      "website": "https://puttes.fi/tikkurila/",
+      "menuUrl": "https://puttes.fi/tikkurila/",
+      "sourceRecords": [
+        {
+          "source": "puttes-official-location-page",
+          "url": "https://puttes.fi/tikkurila/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:amarillo-tikkurila",
+      "name": "Amarillo",
+      "branch": "Tikkurila",
+      "city": "Vantaa",
+      "address": {
+        "street": "Hertaksentie 2",
+        "postalCode": "01300",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/vantaa/amarillo-tikkurila",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/vantaa/amarillo-tikkurila",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/vantaa/amarillo-tikkurila",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
         }
       ],
       "checkedAt": "2026-10-26"
