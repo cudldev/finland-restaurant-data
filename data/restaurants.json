@@ -40,9 +40,24 @@
           ],
           "checkedAt": "2026-10-25",
           "note": "General menu/product feed, not a daily lunch feed."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kirkonkyl%C3%A4ntie%2011%2C%2000700%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/79763324",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.252599,
+      "lon": 25.006112
     },
     {
       "id": "frd:espoo:pancho-villa-sello",
@@ -69,9 +84,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Lepp%C3%A4vaarankatu%203%2C%2002600%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/12709342582",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.2182412,
+      "lon": 24.8087632
     },
     {
       "id": "frd:helsinki:pancho-villa-redi",
@@ -98,9 +128,43 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Hermannin%20rantatie%205%2C%2000540%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1449865954",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Hamburger_and_Coca-Cola_at_Pancho_Villa_Redi_in_June_2025.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "JIP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Linked thumbnail only. Image remains hosted by Wikimedia Commons."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1869567,
+      "lon": 24.9792379,
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Hamburger_and_Coca-Cola_at_Pancho_Villa_Redi_in_June_2025.jpg/960px-Hamburger_and_Coca-Cola_at_Pancho_Villa_Redi_in_June_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_and_Coca-Cola_at_Pancho_Villa_Redi_in_June_2025.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "id": "frd:helsinki:pancho-villa-tripla",
@@ -127,9 +191,43 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Fredikanterassi%201%2C%2000520%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/76388216",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Hamburger_and_fries_at_Pancho_Villa_Tripla.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "JIP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Linked thumbnail only. Image remains hosted by Wikimedia Commons."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1986779,
+      "lon": 24.9334219,
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Hamburger_and_fries_at_Pancho_Villa_Tripla.jpg/960px-Hamburger_and_fries_at_Pancho_Villa_Tripla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_and_fries_at_Pancho_Villa_Tripla.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "id": "frd:vantaa:pancho-villa-jumbo",
@@ -156,9 +254,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Vantaanportinkatu%203%2C%2001510%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/2516191050",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.292453,
+      "lon": 24.9628243
     },
     {
       "id": "frd:vantaa:pancho-villa-kivisto",
@@ -185,9 +298,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Topaasikuja%208%2C%2001700%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/13475621864",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.3140983,
+      "lon": 24.8466122
     },
     {
       "id": "frd:vantaa:pancho-villa-tikkurila",
@@ -214,9 +342,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Asematie%2012%20b%2C%2001300%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/8520344009",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.2930828,
+      "lon": 25.0392997
     },
     {
       "id": "frd:vantaa:puttes-tikkurila",
@@ -243,9 +386,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Asematie%2012%20a%2C%2001300%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/830465655",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.2929747,
+      "lon": 25.0401382
     },
     {
       "id": "frd:vantaa:amarillo-tikkurila",
@@ -272,9 +430,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Hertaksentie%202%2C%2001300%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/27166913",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.2905182,
+      "lon": 25.0417964
     },
     {
       "id": "frd:espoo:deliberi-tapiola",
@@ -305,9 +478,24 @@
           ],
           "checkedAt": "2026-10-26",
           "note": "Official current opening hours and weekday lunch availability."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kauppakeskus%20Ainoa%2C%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "relation/7700177",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.175459,
+      "lon": 24.8045465
     },
     {
       "id": "frd:espoo:deliberi-iso-omena",
@@ -338,9 +526,24 @@
           ],
           "checkedAt": "2026-10-26",
           "note": "Official current opening hours and weekday lunch availability."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Piispansilta%2011%2C%2002230%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1011337660",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1621312,
+      "lon": 24.7362907
     },
     {
       "id": "frd:vantaa:deliberi-jumbo",
@@ -371,9 +574,24 @@
           ],
           "checkedAt": "2026-10-26",
           "note": "Official current opening hours and weekday lunch availability."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kauppakeskus%20Jumbo%2C%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/5052826",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.2915942,
+      "lon": 24.9656777
     },
     {
       "id": "frd:espoo:classic-pizza-iso-omena",
@@ -399,9 +617,24 @@
             "branch"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Piispansilta%2011%2C%2002230%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1011337660",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1621312,
+      "lon": 24.7362907
     },
     {
       "id": "frd:espoo:rosso-iso-omena",
@@ -427,9 +660,24 @@
             "branch"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Piispansilta%2011%2C%2002230%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1011337660",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1621312,
+      "lon": 24.7362907
     },
     {
       "id": "frd:helsinki:ravintola-lasipalatsi",
@@ -454,9 +702,24 @@
             "website"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Mannerheimintie%2022-24%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/5887336141",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1706865,
+      "lon": 24.9364447
     },
     {
       "id": "frd:espoo:trattoria-garden",
@@ -482,9 +745,24 @@
             "branch"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Tapionaukio%203%2C%2002100%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/23034570",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1772864,
+      "lon": 24.8072323
     },
     {
       "id": "frd:helsinki:10-kerros",
@@ -509,9 +787,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kaivokatu%203%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/1369465615",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1702551,
+      "lon": 24.93887
     },
     {
       "id": "frd:helsinki:casa-largo",
@@ -536,9 +829,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Asema-Aukio%202%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/1369465692",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1705952,
+      "lon": 24.9390173
     },
     {
       "id": "frd:helsinki:vltava",
@@ -563,9 +871,43 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Elielinaukio%202%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/122595277",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Restaurant_Vltava_at_Asema-aukio_on_an_evening_in_March_2025.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "JIP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Linked thumbnail only. Image remains hosted by Wikimedia Commons."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.171443,
+      "lon": 24.9396461,
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Restaurant_Vltava_at_Asema-aukio_on_an_evening_in_March_2025.jpg/960px-Restaurant_Vltava_at_Asema-aukio_on_an_evening_in_March_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Restaurant_Vltava_at_Asema-aukio_on_an_evening_in_March_2025.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "id": "frd:helsinki:bistro-manu",
@@ -590,9 +932,24 @@
             "menuUrl"
           ],
           "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Etel%C3%A4inen%20Rautatiekatu%204%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/60069595",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity, operation, and other business details are sourced separately."
         }
       ],
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "lat": 60.1705978,
+      "lon": 24.9326073
     }
   ]
 }
