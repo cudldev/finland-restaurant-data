@@ -374,6 +374,117 @@
         }
       ],
       "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:classic-pizza-iso-omena",
+      "name": "Classic Pizza",
+      "branch": "Iso Omena",
+      "city": "Espoo",
+      "address": {
+        "street": "Piispansilta 11",
+        "postalCode": "02230",
+        "country": "FI"
+      },
+      "website": "https://classicpizza.fi/ravintola/classic-pizza-restaurant-iso-omena/",
+      "menuUrl": "https://classicpizza.fi/ravintola/classic-pizza-restaurant-iso-omena/",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-location-page",
+          "url": "https://classicpizza.fi/ravintola/classic-pizza-restaurant-iso-omena/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "branch"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:rosso-iso-omena",
+      "name": "Rosso",
+      "branch": "Iso Omena",
+      "city": "Espoo",
+      "address": {
+        "street": "Piispansilta 11",
+        "postalCode": "02230",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/espoo/rosso-iso-omena-espoo",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/espoo/rosso-iso-omena-espoo",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/espoo/rosso-iso-omena-espoo",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "branch"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-lasipalatsi",
+      "name": "Ravintola Lasipalatsi",
+      "branch": "",
+      "city": "Helsinki",
+      "address": {
+        "street": "Mannerheimintie 22-24",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/helsinki/ravintola-lasipalatsi",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/helsinki/ravintola-lasipalatsi",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/helsinki/ravintola-lasipalatsi",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:trattoria-garden",
+      "name": "Trattoria Garden",
+      "branch": "Tapiola",
+      "city": "Espoo",
+      "address": {
+        "street": "Tapionaukio 3",
+        "postalCode": "02100",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/espoo/trattoria-garden",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/espoo/trattoria-garden",
+      "sourceRecords": [
+        {
+          "source": "restaurant-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/espoo/trattoria-garden",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "branch"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
     }
   ]
 }
