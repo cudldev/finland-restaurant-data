@@ -15,7 +15,7 @@ try {
   const ids = new Set();
   for (const [index, place] of (dataset.places ?? []).entries()) {
     const label = `places[${index}]`;
-    for (const field of ['id', 'name', 'city', 'checkedAt']) {
+    for (const field of ['id', 'name', 'city', 'checkedAt', 'lastValidatedAt']) {
       if (!place[field]) errors.push(`${label}.${field} is required`);
     }
     if (ids.has(place.id)) errors.push(`${label}.id duplicates ${place.id}`);
@@ -25,6 +25,8 @@ try {
     if (!place.sourceRecords?.some((source) => source.url && source.fields?.length && source.checkedAt)) {
       errors.push(`${label} needs a dated source URL with the fields it supports`);
     }
+    if (place.validated !== true) errors.push(`${label}.validated must be true for published records`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(place.lastValidatedAt ?? '')) errors.push(`${label}.lastValidatedAt must use YYYY-MM-DD`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(place.checkedAt ?? '')) errors.push(`${label}.checkedAt must use YYYY-MM-DD`);
     if (place.photo && (!place.photo.url || !place.photo.sourceUrl || !place.photo.attribution || !place.photo.license || !place.photo.licenseUrl)) {
       errors.push(`${label}.photo needs URL, file page, attribution, license and license URL`);

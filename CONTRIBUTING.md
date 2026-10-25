@@ -21,6 +21,8 @@ Edit [`data/restaurants.json`](data/restaurants.json). Keep one entry per physic
 - `lat`, `lon`: coordinates for nearby search. Record the geocoder source separately from business facts. If using Nominatim, include its query URL, OSM object ID, ODbL license and OpenStreetMap attribution.
 - `photo`: optional Wikimedia Commons thumbnail metadata (`url`, `sourceUrl`, `attribution`, `license`, `licenseUrl`). Check the exact file page and license first; link to the file, do not copy the image.
 - `sourceRecords`: one or more source objects. Each must include the URL, fields supported by that source, and the date checked. Include source license and required attribution when data comes from an open dataset.
+- `validated`: set to `true` only after checking a current official source confirms the specific location is operating.
+- `lastValidatedAt`: date the official source and operation were last checked, in `YYYY-MM-DD` format. Update this when revalidating; do not infer it from the candidate source timestamp.
 - `checkedAt`: date the links were last checked in `YYYY-MM-DD` format.
 
 ## Source and reuse rules
