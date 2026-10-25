@@ -1,23 +1,38 @@
 {
-  "schema": 1,
+  "schema": 2,
   "region": "Helsinki metropolitan area",
-  "license": "ODbL-1.0",
-  "attribution": "© OpenStreetMap contributors",
+  "databaseLicense": "ODbL-1.0",
   "places": [
     {
-      "id": "osm:n11328083030",
-      "name": "Pancho Villa Malmi",
+      "id": "frd:helsinki:pancho-villa-malmi",
+      "name": "Pancho Villa",
+      "branch": "Malmi",
       "city": "Helsinki",
-      "website": "https://panchovilla.fi/",
-      "menuUrl": "https://panchovilla.fi/menu/",
+      "address": {
+        "street": "Kirkonkyläntie 11",
+        "postalCode": "00700",
+        "country": "FI"
+      },
+      "website": "https://panchovilla.fi/ravintolat/helsinki-malmi/",
+      "menuUrl": "https://panchovilla.fi/ravintolat/helsinki-malmi/",
       "menuFeed": "https://panchovilla.fi/menu/feed/",
       "menuFeedType": "general_menu",
-      "sources": [
-        "https://www.openstreetmap.org/node/11328083030",
-        "https://panchovilla.fi/menu/",
-        "https://panchovilla.fi/menu/feed/"
+      "sourceRecords": [
+        {
+          "source": "pancho-villa-official-location",
+          "url": "https://panchovilla.fi/ravintolat/helsinki-malmi/",
+          "fields": ["name", "branch", "city", "address", "website", "menuUrl"],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "pancho-villa-official-menu-feed",
+          "url": "https://panchovilla.fi/menu/feed/",
+          "fields": ["menuFeed", "menuFeedType"],
+          "checkedAt": "2026-10-25",
+          "note": "General menu/product feed, not a daily lunch feed."
+        }
       ],
-      "checkedAt": "2026-10-25"
+      "checkedAt": "2026-10-26"
     }
   ]
 }
