@@ -57,7 +57,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.252599,
-      "lon": 25.006112
+      "lon": 25.006112,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:pancho-villa-sello",
@@ -101,7 +103,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2182412,
-      "lon": 24.8087632
+      "lon": 24.8087632,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pancho-villa-redi",
@@ -164,7 +168,9 @@
         "attribution": "JIP",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pancho-villa-tripla",
@@ -227,7 +233,9 @@
         "attribution": "JIP",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:pancho-villa-jumbo",
@@ -271,7 +279,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.292453,
-      "lon": 24.9628243
+      "lon": 24.9628243,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:pancho-villa-kivisto",
@@ -315,7 +325,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.3140983,
-      "lon": 24.8466122
+      "lon": 24.8466122,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:pancho-villa-tikkurila",
@@ -359,7 +371,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2930828,
-      "lon": 25.0392997
+      "lon": 25.0392997,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:puttes-tikkurila",
@@ -403,7 +417,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2929747,
-      "lon": 25.0401382
+      "lon": 25.0401382,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:amarillo-tikkurila",
@@ -447,7 +463,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2905182,
-      "lon": 25.0417964
+      "lon": 25.0417964,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:deliberi-tapiola",
@@ -495,7 +513,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.175459,
-      "lon": 24.8045465
+      "lon": 24.8045465,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:deliberi-iso-omena",
@@ -543,7 +563,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1621312,
-      "lon": 24.7362907
+      "lon": 24.7362907,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:deliberi-jumbo",
@@ -610,7 +632,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2915942,
-      "lon": 24.9656777
+      "lon": 24.9656777,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:classic-pizza-iso-omena",
@@ -653,7 +677,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1621312,
-      "lon": 24.7362907
+      "lon": 24.7362907,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:rosso-iso-omena",
@@ -696,7 +722,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1621312,
-      "lon": 24.7362907
+      "lon": 24.7362907,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:ravintola-lasipalatsi",
@@ -738,7 +766,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1706865,
-      "lon": 24.9364447
+      "lon": 24.9364447,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:trattoria-garden",
@@ -781,7 +811,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1772864,
-      "lon": 24.8072323
+      "lon": 24.8072323,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:10-kerros",
@@ -823,7 +855,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1702551,
-      "lon": 24.93887
+      "lon": 24.93887,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:casa-largo",
@@ -865,7 +899,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1705952,
-      "lon": 24.9390173
+      "lon": 24.9390173,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:vltava",
@@ -926,7 +962,9 @@
         "attribution": "JIP",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:bistro-manu",
@@ -968,7 +1006,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1705978,
-      "lon": 24.9326073
+      "lon": 24.9326073,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:amarillo-flamingo",
@@ -1013,7 +1053,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2902072,
-      "lon": 24.9694653
+      "lon": 24.9694653,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:classic-pizza-jumbo",
@@ -1058,7 +1100,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2915942,
-      "lon": 24.9656777
+      "lon": 24.9656777,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:rosso-pizza-tikkurila",
@@ -1103,7 +1147,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2907914,
-      "lon": 25.0416472
+      "lon": 25.0416472,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:puttes-tapiola",
@@ -1148,7 +1194,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1747538,
-      "lon": 24.7808189
+      "lon": 24.7808189,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:delhi-rasoi-tripla",
@@ -1212,7 +1260,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1989894,
-      "lon": 24.9316179
+      "lon": 24.9316179,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:delhi-rasoi-itis",
@@ -1257,7 +1307,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2121443,
-      "lon": 25.082623
+      "lon": 25.082623,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:delhi-rasoi-kivis",
@@ -1302,7 +1354,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.3132457,
-      "lon": 24.8465854
+      "lon": 24.8465854,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:delhi-rasoi-tapiola",
@@ -1347,7 +1401,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.175459,
-      "lon": 24.8045465
+      "lon": 24.8045465,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:kauniainen:delhi-rasoi-kauniainen",
@@ -1392,7 +1448,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.210221,
-      "lon": 24.7278412
+      "lon": 24.7278412,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pretty-boy-kamppi",
@@ -1435,7 +1493,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.167337,
-      "lon": 24.930803
+      "lon": 24.930803,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pretty-boy-tripla",
@@ -1478,7 +1538,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1986478,
-      "lon": 24.930532
+      "lon": 24.930532,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:pretty-boy-airport",
@@ -1521,7 +1583,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.3178041,
-      "lon": 24.9673005
+      "lon": 24.9673005,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pretty-boy-redi",
@@ -1564,7 +1628,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1869567,
-      "lon": 24.9792379
+      "lon": 24.9792379,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:pretty-boy-dixi",
@@ -1607,7 +1673,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.291932,
-      "lon": 25.0433073
+      "lon": 25.0433073,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pretty-boy-kortteli",
@@ -1650,7 +1718,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1690773,
-      "lon": 24.9330746
+      "lon": 24.9330746,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:pretty-boy-ainoa",
@@ -1693,7 +1763,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.175459,
-      "lon": 24.8045465
+      "lon": 24.8045465,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:pretty-boy-citycenter",
@@ -1736,7 +1808,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1701594,
-      "lon": 24.9415295
+      "lon": 24.9415295,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:pretty-boy-jumbo",
@@ -1779,7 +1853,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2915942,
-      "lon": 24.9656777
+      "lon": 24.9656777,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:levant-bulevardi",
@@ -1822,7 +1898,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.164433,
-      "lon": 24.935681
+      "lon": 24.935681,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:levant-kallio",
@@ -1865,7 +1943,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1887382,
-      "lon": 24.9544578
+      "lon": 24.9544578,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:levant-lauttasaari",
@@ -1908,7 +1988,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1489423,
-      "lon": 24.8822924
+      "lon": 24.8822924,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:levant-toolo",
@@ -1951,7 +2033,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1797982,
-      "lon": 24.9242097
+      "lon": 24.9242097,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:levant-airport",
@@ -1994,7 +2078,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.3178041,
-      "lon": 24.9673005
+      "lon": 24.9673005,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:makaronitehdas-jumbo",
@@ -2037,7 +2123,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2915942,
-      "lon": 24.9656777
+      "lon": 24.9656777,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:makaronitehdas-iso-omena",
@@ -2099,7 +2187,9 @@
         "attribution": "Arkke",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:espoo:makaronitehdas-ainoa",
@@ -2142,7 +2232,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.175459,
-      "lon": 24.8045465
+      "lon": 24.8045465,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:makaronitehdas-forum",
@@ -2185,7 +2277,9 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.1686551,
-      "lon": 24.9384145
+      "lon": 24.9384145,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:helsinki:makaronitehdas-redi",
@@ -2247,7 +2341,9 @@
         "attribution": "JIP",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
+      },
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     },
     {
       "id": "frd:vantaa:ravintola-oklahoma",
@@ -2289,7 +2385,112 @@
       ],
       "checkedAt": "2026-10-26",
       "lat": 60.2936782,
-      "lon": 25.0342162
+      "lon": 25.0342162,
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:annes-vege-tapiola",
+      "name": "Anne's Vege",
+      "branch": "Tapiola",
+      "city": "Espoo",
+      "address": {
+        "street": "Tapionaukio 4",
+        "postalCode": "02100",
+        "country": "FI"
+      },
+      "website": "https://www.annesvege.fi/",
+      "menuUrl": "https://www.annesvege.fi/",
+      "sourceRecords": [
+        {
+          "source": "Anne’s Vege official website",
+          "url": "https://www.annesvege.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current weekly menu, address, opening hours and contact details are published on the official site."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/5649849379",
+          "recordId": "node/5649849379",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity and operating status are verified from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26",
+      "lat": 60.175677,
+      "lon": 24.804689
+    },
+    {
+      "id": "frd:helsinki:factory-kamppi",
+      "name": "Factory Kamppi",
+      "city": "Helsinki",
+      "address": {
+        "street": "Runeberginkatu 3",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://factorykamppi.com/",
+      "menuUrl": "https://factorykamppi.com/lounas/",
+      "sourceRecords": [
+        {
+          "source": "Factory Kamppi official contact page",
+          "url": "https://factorykamppi.com/yhteystiedot/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The official location page lists the address, contact details and current opening hours."
+        },
+        {
+          "source": "Factory Kamppi official lunch page",
+          "url": "https://factorykamppi.com/lounas/",
+          "fields": [
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current lunch page is published for this location."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/5103177157",
+          "recordId": "node/5103177157",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant identity and operating status are verified from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26",
+      "lat": 60.1688181,
+      "lon": 24.9293577
     }
   ]
 }
