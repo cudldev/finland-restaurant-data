@@ -552,6 +552,13 @@
       "city": "Vantaa",
       "website": "https://deliberi.fi/",
       "menuUrl": "https://deliberi.fi/ravintolat/deliberi-jumbo/",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Saffron_risotto_at_Deliberi_Jumbo.jpg/960px-Saffron_risotto_at_Deliberi_Jumbo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saffron_risotto_at_Deliberi_Jumbo.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
       "sourceRecords": [
         {
           "source": "deliberi-official-branch-menu-page",
@@ -574,6 +581,18 @@
           ],
           "checkedAt": "2026-10-26",
           "note": "Official current opening hours and weekday lunch availability."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Saffron_risotto_at_Deliberi_Jumbo.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "JIP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Lunch dish photographed at Deliberi Jumbo in October 2025; linked thumbnail only, hosted by Wikimedia Commons."
         },
         {
           "source": "OpenStreetMap Nominatim address geocoding",
@@ -950,6 +969,1327 @@
       "checkedAt": "2026-10-26",
       "lat": 60.1705978,
       "lon": 24.9326073
+    },
+    {
+      "id": "frd:vantaa:amarillo-flamingo",
+      "name": "Amarillo",
+      "branch": "Flamingo",
+      "city": "Vantaa",
+      "address": {
+        "street": "Tasetie 8",
+        "postalCode": "01510",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/vantaa/amarillo-flamingo-vantaa",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/vantaa/amarillo-flamingo-vantaa",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/vantaa/amarillo-flamingo-vantaa",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page lists current opening hours and the Flamingo address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim place geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Amarillo%20Flamingo%20Vantaa&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/3749399200",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant operation and business facts come from the official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2902072,
+      "lon": 24.9694653
+    },
+    {
+      "id": "frd:vantaa:classic-pizza-jumbo",
+      "name": "Classic Pizza",
+      "branch": "Jumbo",
+      "city": "Vantaa",
+      "address": {
+        "street": "Vantaanportinkatu 3",
+        "postalCode": "01510",
+        "country": "FI"
+      },
+      "website": "https://classicpizza.fi/ravintola/classic-pizza-restaurant-jumbo/",
+      "menuUrl": "https://classicpizza.fi/ravintola/classic-pizza-restaurant-jumbo/",
+      "sourceRecords": [
+        {
+          "source": "classic-pizza-official-branch-page",
+          "url": "https://classicpizza.fi/ravintola/classic-pizza-restaurant-jumbo/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official branch page lists the Jumbo location, address and current opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Vantaanportinkatu%203%2C%2001510%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/5052826",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "The address geocodes to Jumbo shopping centre; the branch is inside the centre. Coordinates are for directions only."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2915942,
+      "lon": 24.9656777
+    },
+    {
+      "id": "frd:vantaa:rosso-pizza-tikkurila",
+      "name": "Rosso Pizza",
+      "branch": "Tikkurila",
+      "city": "Vantaa",
+      "address": {
+        "street": "Hertaksentie 2",
+        "postalCode": "01300",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/vantaa/rosso-pizza-tikkurila",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/vantaa/rosso-pizza-tikkurila",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/vantaa/rosso-pizza-tikkurila",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page lists current opening hours, menu and Tikkurila address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim place geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Rosso%20Tikkurila%20Vantaa&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/12363023746",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant operation and business facts come from the official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2907914,
+      "lon": 25.0416472
+    },
+    {
+      "id": "frd:espoo:puttes-tapiola",
+      "name": "Putte's Bar & Pizza",
+      "branch": "Tapiola",
+      "city": "Espoo",
+      "address": {
+        "street": "Koivu-Mankkaan tie 1",
+        "postalCode": "02200",
+        "country": "FI"
+      },
+      "website": "https://puttes.fi/tapiolan-urheilupuisto/",
+      "menuUrl": "https://puttes.fi/tapiolan-urheilupuisto/",
+      "sourceRecords": [
+        {
+          "source": "puttes-official-branch-page",
+          "url": "https://puttes.fi/tapiolan-urheilupuisto/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page lists current opening hours, menu and Tapiola address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim place geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Putte%27s%20Tapiola%20Espoo&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/6545854478",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant operation and business facts come from the official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1747538,
+      "lon": 24.7808189
+    },
+    {
+      "id": "frd:helsinki:delhi-rasoi-tripla",
+      "name": "Delhi Rasoi",
+      "branch": "Tripla",
+      "city": "Helsinki",
+      "address": {
+        "street": "Fredikanterassi 1",
+        "postalCode": "00520",
+        "country": "FI"
+      },
+      "website": "https://delhirasoi.fi/",
+      "menuUrl": "https://delhirasoi.fi/order",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Interior_of_restaurant_Delhi_Rasoi.jpg/960px-Interior_of_restaurant_Delhi_Rasoi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_restaurant_Delhi_Rasoi.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "sourceRecords": [
+        {
+          "source": "delhi-rasoi-official-restaurant-ordering-page",
+          "url": "https://delhirasoi.fi/order",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official restaurant selector lists the Tripla branch and opening hours."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_of_restaurant_Delhi_Rasoi.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "JIP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Interior of Delhi Rasoi at Tripla, photographed in October 2022; linked thumbnail only, hosted by Wikimedia Commons."
+        },
+        {
+          "source": "OpenStreetMap Nominatim place geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Delhi%20Rasoi%20Tripla%2C%20Fredikanterassi%201%2C%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/7063273821",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant operation and business facts come from the official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1989894,
+      "lon": 24.9316179
+    },
+    {
+      "id": "frd:helsinki:delhi-rasoi-itis",
+      "name": "Delhi Rasoi",
+      "branch": "Itis",
+      "city": "Helsinki",
+      "address": {
+        "street": "Itäkatu 1-5",
+        "postalCode": "00930",
+        "country": "FI"
+      },
+      "website": "https://delhirasoi.fi/",
+      "menuUrl": "https://delhirasoi.fi/order",
+      "sourceRecords": [
+        {
+          "source": "delhi-rasoi-official-restaurant-ordering-page",
+          "url": "https://delhirasoi.fi/order",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official restaurant selector lists the Itis branch and opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim place geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Delhi%20Rasoi%20Itis%20Helsinki&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/11730141146",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant operation and business facts come from the official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2121443,
+      "lon": 25.082623
+    },
+    {
+      "id": "frd:vantaa:delhi-rasoi-kivis",
+      "name": "Delhi Rasoi",
+      "branch": "Kivis",
+      "city": "Vantaa",
+      "address": {
+        "street": "Vantaankoskentie 69",
+        "postalCode": "01700",
+        "country": "FI"
+      },
+      "website": "https://delhirasoi.fi/",
+      "menuUrl": "https://delhirasoi.fi/order",
+      "sourceRecords": [
+        {
+          "source": "delhi-rasoi-official-restaurant-ordering-page",
+          "url": "https://delhirasoi.fi/order",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official restaurant selector lists the Kivis branch and opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Vantaankoskentie%2069%2C%2001700%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/961857655",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "The address geocodes to Kivis shopping centre; the restaurant is inside the centre. Coordinates are for directions only."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.3132457,
+      "lon": 24.8465854
+    },
+    {
+      "id": "frd:espoo:delhi-rasoi-tapiola",
+      "name": "Delhi Rasoi",
+      "branch": "Tapiola",
+      "city": "Espoo",
+      "address": {
+        "street": "Länsituuli 5",
+        "postalCode": "02100",
+        "country": "FI"
+      },
+      "website": "https://delhirasoi.fi/",
+      "menuUrl": "https://delhirasoi.fi/order",
+      "sourceRecords": [
+        {
+          "source": "delhi-rasoi-official-restaurant-ordering-page",
+          "url": "https://delhirasoi.fi/order",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official restaurant selector lists the Tapiola branch and opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Ainoa%20shopping%20centre%2C%20Tapiola%2C%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "relation/7700177",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "The official branch is inside Kauppakeskus Ainoa; coordinates use the shopping centre location for directions."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.175459,
+      "lon": 24.8045465
+    },
+    {
+      "id": "frd:kauniainen:delhi-rasoi-kauniainen",
+      "name": "Delhi Rasoi",
+      "branch": "Kauniainen",
+      "city": "Kauniainen",
+      "address": {
+        "street": "Kauniaistentie 7",
+        "postalCode": "02700",
+        "country": "FI"
+      },
+      "website": "https://delhirasoi.fi/",
+      "menuUrl": "https://delhirasoi.fi/order",
+      "sourceRecords": [
+        {
+          "source": "delhi-rasoi-official-restaurant-ordering-page",
+          "url": "https://delhirasoi.fi/order",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official restaurant selector lists the Kauniainen branch and opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim place geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Delhi%20Rasoi%20Kauniainen%2C%20Kauniaistentie%207%2C%20Kauniainen%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/6893416258",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant operation and business facts come from the official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.210221,
+      "lon": 24.7278412
+    },
+    {
+      "id": "frd:helsinki:pretty-boy-kamppi",
+      "name": "Pretty Boy",
+      "branch": "Kamppi",
+      "city": "Helsinki",
+      "address": {
+        "street": "Malminrinne 2-4",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Malminrinne%202-4%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/12387694483",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.167337,
+      "lon": 24.930803
+    },
+    {
+      "id": "frd:helsinki:pretty-boy-tripla",
+      "name": "Pretty Boy",
+      "branch": "Tripla",
+      "city": "Helsinki",
+      "address": {
+        "street": "Firdonkatu 2",
+        "postalCode": "00520",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Firdonkatu%202%2C%2000520%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/6888009534",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to a location within Mall of Tripla for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1986478,
+      "lon": 24.930532
+    },
+    {
+      "id": "frd:vantaa:pretty-boy-airport",
+      "name": "Pretty Boy",
+      "branch": "Airport",
+      "city": "Vantaa",
+      "address": {
+        "street": "Lentoasemantie 1",
+        "postalCode": "01530",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Lentoasemantie%201%2C%2001530%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "relation/13510333",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the airport property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.3178041,
+      "lon": 24.9673005
+    },
+    {
+      "id": "frd:helsinki:pretty-boy-redi",
+      "name": "Pretty Boy",
+      "branch": "Redi",
+      "city": "Helsinki",
+      "address": {
+        "street": "Hermannin rantatie 5",
+        "postalCode": "00580",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Hermannin%20rantatie%205%2C%2000580%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1449865954",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Redi property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1869567,
+      "lon": 24.9792379
+    },
+    {
+      "id": "frd:vantaa:pretty-boy-dixi",
+      "name": "Pretty Boy",
+      "branch": "Dixi",
+      "city": "Vantaa",
+      "address": {
+        "street": "Ratatie 11",
+        "postalCode": "01300",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Ratatie%2011%2C%2001300%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/5906696828",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Dixi property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.291932,
+      "lon": 25.0433073
+    },
+    {
+      "id": "frd:helsinki:pretty-boy-kortteli",
+      "name": "Pretty Boy",
+      "branch": "Kortteli",
+      "city": "Helsinki",
+      "address": {
+        "street": "Urho Kekkosen katu 1",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Urho%20Kekkosen%20katu%201%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/122886629",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Kamppi property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1690773,
+      "lon": 24.9330746
+    },
+    {
+      "id": "frd:espoo:pretty-boy-ainoa",
+      "name": "Pretty Boy",
+      "branch": "Ainoa",
+      "city": "Espoo",
+      "address": {
+        "street": "Länsituuli 5",
+        "postalCode": "02100",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kauppakeskus%20Ainoa%2C%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "relation/7700177",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Ainoa property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.175459,
+      "lon": 24.8045465
+    },
+    {
+      "id": "frd:helsinki:pretty-boy-citycenter",
+      "name": "Pretty Boy",
+      "branch": "Citycenter",
+      "city": "Helsinki",
+      "address": {
+        "street": "Kaivokatu 8",
+        "postalCode": "00101",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kaivokatu%208%2C%2000101%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/5566807323",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Citycenter property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1701594,
+      "lon": 24.9415295
+    },
+    {
+      "id": "frd:vantaa:pretty-boy-jumbo",
+      "name": "Pretty Boy",
+      "branch": "Jumbo",
+      "city": "Vantaa",
+      "address": {
+        "street": "Vantaanportinkatu 3",
+        "postalCode": "01510",
+        "country": "FI"
+      },
+      "website": "https://www.prettyboy.fi/",
+      "sourceRecords": [
+        {
+          "source": "Pretty Boy official restaurant locator",
+          "url": "https://www.prettyboy.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kauppakeskus%20Jumbo%2C%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/5052826",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Jumbo property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2915942,
+      "lon": 24.9656777
+    },
+    {
+      "id": "frd:helsinki:levant-bulevardi",
+      "name": "Levant",
+      "branch": "Bulevardi",
+      "city": "Helsinki",
+      "address": {
+        "street": "Bulevardi 15",
+        "postalCode": "00120",
+        "country": "FI"
+      },
+      "website": "https://www.levant.fi/",
+      "sourceRecords": [
+        {
+          "source": "Levant official locations page",
+          "url": "https://www.levant.fi/locations",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Bulevardi%2015%2C%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/123586002",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.164433,
+      "lon": 24.935681
+    },
+    {
+      "id": "frd:helsinki:levant-kallio",
+      "name": "Levant",
+      "branch": "Kallio",
+      "city": "Helsinki",
+      "address": {
+        "street": "Vaasankatu 25",
+        "postalCode": "00500",
+        "country": "FI"
+      },
+      "website": "https://www.levant.fi/",
+      "sourceRecords": [
+        {
+          "source": "Levant official locations page",
+          "url": "https://www.levant.fi/locations",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Vaasankatu%2025%2C%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/128116967",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1887382,
+      "lon": 24.9544578
+    },
+    {
+      "id": "frd:helsinki:levant-lauttasaari",
+      "name": "Levant",
+      "branch": "Lauttasaari",
+      "city": "Helsinki",
+      "address": {
+        "street": "Itälahdenkatu 7",
+        "postalCode": "00210",
+        "country": "FI"
+      },
+      "website": "https://www.levant.fi/",
+      "sourceRecords": [
+        {
+          "source": "Levant official locations page",
+          "url": "https://www.levant.fi/locations",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=It%C3%A4lahdenkatu%207%2C%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/88387437",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1489423,
+      "lon": 24.8822924
+    },
+    {
+      "id": "frd:helsinki:levant-toolo",
+      "name": "Levant",
+      "branch": "Töölö",
+      "city": "Helsinki",
+      "address": {
+        "street": "Runeberginkatu 57",
+        "postalCode": "00260",
+        "country": "FI"
+      },
+      "website": "https://www.levant.fi/",
+      "sourceRecords": [
+        {
+          "source": "Levant official locations page",
+          "url": "https://www.levant.fi/locations",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Runeberginkatu%2057%2C%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/124697505",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1797982,
+      "lon": 24.9242097
+    },
+    {
+      "id": "frd:vantaa:levant-airport",
+      "name": "Levant",
+      "branch": "Airport",
+      "city": "Vantaa",
+      "address": {
+        "street": "Helsinki Airport, Terminal 2 Arrivals Hall",
+        "postalCode": "01530",
+        "country": "FI"
+      },
+      "website": "https://www.levant.fi/",
+      "sourceRecords": [
+        {
+          "source": "Levant official locations page",
+          "url": "https://www.levant.fi/locations",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Lentoasemantie%201%2C%2001530%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "relation/13510333",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the airport property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.3178041,
+      "lon": 24.9673005
+    },
+    {
+      "id": "frd:vantaa:makaronitehdas-jumbo",
+      "name": "Makaronitehdas",
+      "branch": "Jumbo",
+      "city": "Vantaa",
+      "address": {
+        "street": "Vantaanportinkatu 3",
+        "postalCode": "01510",
+        "country": "FI"
+      },
+      "website": "https://makaronitehdas.fi/",
+      "sourceRecords": [
+        {
+          "source": "Makaronitehdas official restaurant locator",
+          "url": "https://makaronitehdas.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kauppakeskus%20Jumbo%2C%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/5052826",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Jumbo property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2915942,
+      "lon": 24.9656777
+    },
+    {
+      "id": "frd:espoo:makaronitehdas-iso-omena",
+      "name": "Makaronitehdas",
+      "branch": "Iso Omena",
+      "city": "Espoo",
+      "address": {
+        "street": "Piispansilta 11",
+        "postalCode": "02230",
+        "country": "FI"
+      },
+      "website": "https://makaronitehdas.fi/",
+      "sourceRecords": [
+        {
+          "source": "Makaronitehdas official restaurant locator",
+          "url": "https://makaronitehdas.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Piispansilta%2011%2C%2002230%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1011337660",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Iso Omena property for directions; restaurant facts are sourced from the official operator page."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Makaronitehdas_Iso_Omena.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "Arkke",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Photo depicts this restaurant or a dish served there; linked thumbnail only, hosted by Wikimedia Commons."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1621312,
+      "lon": 24.7362907,
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Makaronitehdas_Iso_Omena.jpg/960px-Makaronitehdas_Iso_Omena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makaronitehdas_Iso_Omena.jpg",
+        "attribution": "Arkke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "frd:espoo:makaronitehdas-ainoa",
+      "name": "Makaronitehdas",
+      "branch": "Ainoa",
+      "city": "Espoo",
+      "address": {
+        "street": "Länsituuli 5",
+        "postalCode": "02100",
+        "country": "FI"
+      },
+      "website": "https://makaronitehdas.fi/",
+      "sourceRecords": [
+        {
+          "source": "Makaronitehdas official restaurant locator",
+          "url": "https://makaronitehdas.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Kauppakeskus%20Ainoa%2C%20Espoo%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "relation/7700177",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Ainoa property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.175459,
+      "lon": 24.8045465
+    },
+    {
+      "id": "frd:helsinki:makaronitehdas-forum",
+      "name": "Makaronitehdas",
+      "branch": "Forum",
+      "city": "Helsinki",
+      "address": {
+        "street": "Mannerheimintie 18",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://makaronitehdas.fi/",
+      "sourceRecords": [
+        {
+          "source": "Makaronitehdas official restaurant locator",
+          "url": "https://makaronitehdas.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Mannerheimintie%2018%2C%2000100%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/7690598251",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Forum property for directions; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1686551,
+      "lon": 24.9384145
+    },
+    {
+      "id": "frd:helsinki:makaronitehdas-redi",
+      "name": "Makaronitehdas",
+      "branch": "Redi",
+      "city": "Helsinki",
+      "address": {
+        "street": "Hermannin rantatie 5",
+        "postalCode": "00580",
+        "country": "FI"
+      },
+      "website": "https://makaronitehdas.fi/",
+      "sourceRecords": [
+        {
+          "source": "Makaronitehdas official restaurant locator",
+          "url": "https://makaronitehdas.fi/ravintolat/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Hermannin%20rantatie%205%2C%2000580%20Helsinki%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/1449865954",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates point to the Redi property for directions; restaurant facts are sourced from the official operator page."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Spaghetti_carbonara_at_Makaronitehdas_Redi.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "attribution": "JIP",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "note": "Photo depicts this restaurant or a dish served there; linked thumbnail only, hosted by Wikimedia Commons."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.1869567,
+      "lon": 24.9792379,
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Spaghetti_carbonara_at_Makaronitehdas_Redi.jpg/960px-Spaghetti_carbonara_at_Makaronitehdas_Redi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_carbonara_at_Makaronitehdas_Redi.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "frd:vantaa:ravintola-oklahoma",
+      "name": "Ravintola Oklahoma",
+      "city": "Vantaa",
+      "address": {
+        "street": "Tikkuraitti 15",
+        "postalCode": "01300",
+        "country": "FI"
+      },
+      "website": "https://www.oklahoma.fi/",
+      "sourceRecords": [
+        {
+          "source": "Ravintola Oklahoma official page",
+          "url": "https://www.oklahoma.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official page currently lists this branch and its address."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Tikkuraitti%2015%2C%2001300%20Vantaa%2C%20Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/918729681",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; restaurant facts are sourced from the official operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "lat": 60.2936782,
+      "lon": 25.0342162
     }
   ]
 }

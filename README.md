@@ -21,14 +21,14 @@ No single source provides both a complete restaurant list and current branch det
 
 ## Local sourcing tools
 
-The repository includes local scripts to help maintainers find new candidates and catch malformed records. They use Node.js built-ins only; no API key, paid service, or hosted runner is required.
+The repository includes local scripts to help maintainers find new candidates and catch malformed records. They use Node.js built-ins only; no API key, paid service, or hosted runner is required. Use Node.js 22.15 or later for the system certificate support used by the discovery command.
 
 ```sh
 npm run discover
 npm run validate
 ```
 
-`discover` queries the Helsinki metropolitan area Service Map API for Finnish and English restaurant, lunch, and cafe terms across Helsinki, Espoo, Vantaa, and Kauniainen. It writes `.local/candidates.json` with source IDs, query terms, and required CC BY 4.0 attribution. This generated report is git-ignored because it contains unreviewed source data; it is a local review queue, not part of the published restaurant dataset. Every candidate starts as `unverified`; a matching Service Map result alone is not evidence that a restaurant currently operates. Check a current official branch page and add only facts supported by that official page to `data/restaurants.json`. Do not copy source-derived fields into the ODbL dataset without reviewing license compatibility. To choose another output location, pass `--output <path>`; `--max-pages <number>` controls the per-query pagination limit.
+`discover` queries the Service Map's restaurant and cafe categories across Helsinki, Espoo, Vantaa, and Kauniainen. It writes `.local/candidates.json` with source IDs, category labels, coordinates, and required CC BY 4.0 attribution. This generated report is git-ignored because it contains unreviewed source data; it is a local review queue, not part of the published restaurant dataset. Every candidate starts as `unverified`; a matching Service Map result alone is not evidence that a restaurant currently operates. Check a current official branch page and add only facts supported by that official page to `data/restaurants.json`. Do not copy source-derived fields into the ODbL dataset without reviewing license compatibility. To choose another output location, pass `--output <path>`; `--max-pages <number>` controls the per-query pagination limit.
 
 `validate` checks required fields, unique IDs, coordinates, dated source records, and photo license metadata in the published dataset. It does not check whether external pages are reachable or prove that a business is open.
 

@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=22.15"
   },
   "scripts": {
-    "discover": "node scripts/discover-candidates.mjs",
+    "discover": "node --use-system-ca scripts/discover-candidates.mjs",
     "validate": "node scripts/validate-dataset.mjs"
   }
 }
