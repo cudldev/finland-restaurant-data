@@ -2,6 +2,12 @@
 
 Restaurant additions and corrections are welcome as GitHub pull requests.
 
+## Discovering candidates
+
+Run `npm run discover` locally to refresh `.local/candidates.json` from the Helsinki metropolitan area Service Map. This only gathers leads and preserves CC BY 4.0 attribution in a git-ignored local report. Do not copy candidates directly into `restaurants.json`: confirm that the specific branch is still operating using its current official restaurant page, then record that official page as the source for the business facts. A broken Service Map entry or an unresponsive website alone is not enough evidence to remove an existing restaurant. Review license compatibility before retaining source-derived fields in the ODbL dataset.
+
+Run `npm run validate` before opening a pull request. The validator is structural; reviewers still need to inspect the cited sources and current operation evidence.
+
 ## Record format
 
 Edit [`data/restaurants.json`](data/restaurants.json). Keep one entry per physical restaurant location. Use these fields:
