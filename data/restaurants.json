@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "region": "Helsinki metropolitan area",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "places": [
+    {
+      "id": "osm:n11328083030",
+      "name": "Pancho Villa Malmi",
+      "city": "Helsinki",
+      "website": "https://panchovilla.fi/",
+      "menuUrl": "https://panchovilla.fi/menu/",
+      "menuFeed": "https://panchovilla.fi/menu/feed/",
+      "menuFeedType": "general_menu",
+      "sources": [
+        "https://www.openstreetmap.org/node/11328083030",
+        "https://panchovilla.fi/menu/",
+        "https://panchovilla.fi/menu/feed/"
+      ],
+      "checkedAt": "2026-10-25"
+    }
+  ]
+}
