@@ -2491,6 +2491,348 @@
       "lastValidatedAt": "2026-10-26",
       "lat": 60.1688181,
       "lon": 24.9293577
+    },
+    {
+      "id": "frd:helsinki:haiku-kamp-galleria",
+      "name": "Haiku",
+      "branch": "Kämp Galleria",
+      "city": "Helsinki",
+      "address": {
+        "street": "Pohjoisesplanadi 33",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.haikusushi.fi/kampgalleria",
+      "menuUrl": "https://www.haikusushi.fi/kampgalleria",
+      "lat": 60.1681435,
+      "lon": 24.9462929,
+      "sourceRecords": [
+        {
+          "source": "Haiku official Kämp Galleria location and menu",
+          "url": "https://www.haikusushi.fi/kampgalleria",
+          "fields": [
+            "name",
+            "branch",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official page lists the Kämp Galleria restaurant, address, opening hours, and menu."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Pohjoisesplanadi+33%2C+00100+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/10026529119",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:boneless-ullanlinna",
+      "name": "Boneless",
+      "branch": "Ullanlinna",
+      "city": "Helsinki",
+      "address": {
+        "street": "Vuorimiehenkatu 12",
+        "postalCode": "00140",
+        "country": "FI"
+      },
+      "website": "https://www.boneless.fi/home",
+      "lat": 60.1588819,
+      "lon": 24.9451311,
+      "sourceRecords": [
+        {
+          "source": "Boneless official restaurant locations",
+          "url": "https://www.boneless.fi/home",
+          "fields": [
+            "name",
+            "branch",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official locations page lists Boneless Ullanlinna and its opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Vuorimiehenkatu+12%2C+00140+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/123832034",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:rogue-rouge",
+      "name": "Rogue Rouge",
+      "city": "Helsinki",
+      "address": {
+        "street": "Tervasaarenkannas 3",
+        "postalCode": "00170",
+        "country": "FI"
+      },
+      "website": "https://roguerouge.fi/en/yhteystiedot.html",
+      "menuUrl": "https://roguerouge.fi/en/food.html",
+      "lat": 60.1736366,
+      "lon": 24.9687139,
+      "sourceRecords": [
+        {
+          "source": "Rogue Rouge official contact and menu pages",
+          "url": "https://roguerouge.fi/en/yhteystiedot.html",
+          "fields": [
+            "name",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official page lists opening hours and contact details; its official menu is linked separately."
+        },
+        {
+          "source": "Rogue Rouge official food menu",
+          "url": "https://roguerouge.fi/en/food.html",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current restaurant menu page."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Tervasaarenkannas+3%2C+00170+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/34714712",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ariel-kalasatama",
+      "name": "Ariel Ravintola",
+      "city": "Helsinki",
+      "address": {
+        "street": "Koksikatu 12",
+        "postalCode": "00540",
+        "country": "FI"
+      },
+      "website": "https://arielravintola.fi/",
+      "menuUrl": "https://arielravintola.fi/",
+      "lat": 60.1842593,
+      "lon": 24.9753866,
+      "sourceRecords": [
+        {
+          "source": "Ariel official restaurant page",
+          "url": "https://arielravintola.fi/",
+          "fields": [
+            "name",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official page lists its Kalasatama restaurant, address, weekly events, opening hours, and menu."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Koksikatu+12%2C+00540+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/11402799709",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        },
+        {
+          "source": "Wikimedia Commons photo file page",
+          "url": "https://commons.wikimedia.org/wiki/File:Kalasatama_kerhotalo_Talas_and_restaurant_Ariel_at_night_(Helsinki,_Finland)_Sep_2,_2026.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY 4.0",
+          "attribution": "Lasse Keskinen; see the file page for license and attribution details."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Kalasatama_kerhotalo_Talas_and_restaurant_Ariel_at_night_%28Helsinki%2C_Finland%29_Sep_2%2C_2026.jpg/960px-Kalasatama_kerhotalo_Talas_and_restaurant_Ariel_at_night_%28Helsinki%2C_Finland%29_Sep_2%2C_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalasatama_kerhotalo_Talas_and_restaurant_Ariel_at_night_(Helsinki,_Finland)_Sep_2,_2026.jpg",
+        "attribution": "Lasse Keskinen",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "frd:helsinki:burger-company-postitalo",
+      "name": "Burger Company",
+      "branch": "Postitalo",
+      "city": "Helsinki",
+      "address": {
+        "street": "Postikatu 1",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.burgercompany.fi/en/restaurants",
+      "lat": 60.1710288,
+      "lon": 24.9377151,
+      "sourceRecords": [
+        {
+          "source": "Burger Company official restaurant directory",
+          "url": "https://www.burgercompany.fi/en/restaurants",
+          "fields": [
+            "name",
+            "branch",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official restaurant directory lists the Postitalo location and opening hours."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Postikatu+1%2C+00100+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "way/50343384",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:fat-tonys-vallila",
+      "name": "Fat Tony's",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sturenkatu 21",
+        "postalCode": "00510",
+        "country": "FI"
+      },
+      "website": "https://fattonys.fi/",
+      "menuUrl": "https://fattonys.fi/",
+      "lat": 60.1922691,
+      "lon": 24.9531983,
+      "sourceRecords": [
+        {
+          "source": "Fat Tony's official restaurant and menu page",
+          "url": "https://fattonys.fi/",
+          "fields": [
+            "name",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official page lists the sports bistro, active weekday lunch, address, opening hours, and food menu."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Sturenkatu+21%2C+00510+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/1427330865",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:antell-berlin-vallila",
+      "name": "Antell Berlin/Vallila",
+      "city": "Helsinki",
+      "category": "cafe",
+      "address": {
+        "street": "Elimäenkatu 25-27",
+        "postalCode": "00510",
+        "country": "FI"
+      },
+      "website": "https://antell.fi/lounas/helsinki/berlinvallila/",
+      "lat": 60.1970886,
+      "lon": 24.9480398,
+      "sourceRecords": [
+        {
+          "source": "Antell official Berlin/Vallila restaurant page",
+          "url": "https://antell.fi/lounas/helsinki/berlinvallila/",
+          "fields": [
+            "name",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Current official page lists weekday restaurant and cafeteria hours and an active lunch service. Listed in Lunumi as category cafe, per project classification."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://nominatim.openstreetmap.org/search?q=Elim%C3%A4enkatu+25-27%2C+00510+Helsinki%2C+Finland&format=jsonv2&limit=1&countrycodes=fi",
+          "recordId": "node/8374836265",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only. Restaurant identity, branch, and operating status were checked against the official restaurant page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
