@@ -1,0 +1,12 @@
+{
+  "name": "finland-restaurant-data",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "scripts": {
+    "discover": "node --use-system-ca scripts/discover-candidates.mjs",
+    "validate": "node scripts/validate-dataset.mjs"
+  }
+}
