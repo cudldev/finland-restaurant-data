@@ -275,6 +275,105 @@
         }
       ],
       "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:deliberi-tapiola",
+      "name": "Deliberi",
+      "branch": "Tapiola",
+      "city": "Espoo",
+      "website": "https://deliberi.fi/",
+      "menuUrl": "https://deliberi.fi/ravintolat/deliberi-tapiola/",
+      "sourceRecords": [
+        {
+          "source": "deliberi-official-branch-menu-page",
+          "url": "https://deliberi.fi/ravintolat/deliberi-tapiola/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "deliberi-official-contact-and-hours-page",
+          "url": "https://deliberi.fi/yhteys/",
+          "fields": [
+            "branch",
+            "city"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official current opening hours and weekday lunch availability."
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:deliberi-iso-omena",
+      "name": "Deliberi",
+      "branch": "Iso Omena",
+      "city": "Espoo",
+      "website": "https://deliberi.fi/",
+      "menuUrl": "https://deliberi.fi/ravintolat/deliberi-iso-omena/",
+      "sourceRecords": [
+        {
+          "source": "deliberi-official-branch-menu-page",
+          "url": "https://deliberi.fi/ravintolat/deliberi-iso-omena/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "deliberi-official-contact-and-hours-page",
+          "url": "https://deliberi.fi/yhteys/",
+          "fields": [
+            "branch",
+            "city"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official current opening hours and weekday lunch availability."
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:deliberi-jumbo",
+      "name": "Deliberi",
+      "branch": "Jumbo",
+      "city": "Vantaa",
+      "website": "https://deliberi.fi/",
+      "menuUrl": "https://deliberi.fi/ravintolat/deliberi-jumbo/",
+      "sourceRecords": [
+        {
+          "source": "deliberi-official-branch-menu-page",
+          "url": "https://deliberi.fi/ravintolat/deliberi-jumbo/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "deliberi-official-contact-and-hours-page",
+          "url": "https://deliberi.fi/yhteys/",
+          "fields": [
+            "branch",
+            "city"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Official current opening hours and weekday lunch availability."
+        }
+      ],
+      "checkedAt": "2026-10-26"
     }
   ]
 }
