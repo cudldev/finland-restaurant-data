@@ -485,6 +485,114 @@
         }
       ],
       "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:10-kerros",
+      "name": "10. Kerros",
+      "city": "Helsinki",
+      "address": {
+        "street": "Kaivokatu 3",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/helsinki/10-kerros",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/helsinki/10-kerros",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/helsinki/10-kerros",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:casa-largo",
+      "name": "Casa Largo",
+      "city": "Helsinki",
+      "address": {
+        "street": "Asema-Aukio 2",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/helsinki/casa-largo",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/helsinki/casa-largo",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/helsinki/casa-largo",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:vltava",
+      "name": "Vltava",
+      "city": "Helsinki",
+      "address": {
+        "street": "Elielinaukio 2",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/helsinki/vltava",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/helsinki/vltava",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/helsinki/vltava",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:bistro-manu",
+      "name": "Bistro Manu",
+      "city": "Helsinki",
+      "address": {
+        "street": "Eteläinen Rautatiekatu 4",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.raflaamo.fi/fi/ravintola/helsinki/bistro-manu",
+      "menuUrl": "https://www.raflaamo.fi/fi/ravintola/helsinki/bistro-manu",
+      "sourceRecords": [
+        {
+          "source": "raflaamo-official-location-page",
+          "url": "https://www.raflaamo.fi/fi/ravintola/helsinki/bistro-manu",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        }
+      ],
+      "checkedAt": "2026-10-26"
     }
   ]
 }
