@@ -15551,6 +15551,125 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:bodomin-kartano",
+      "name": "Bodomin Kartano",
+      "city": "Espoo",
+      "address": {
+        "street": "Bodominkuja 7",
+        "postalCode": "02940",
+        "country": "FI"
+      },
+      "website": "https://bodominkartano.fi/",
+      "menuUrl": "https://bodominkartano.fi/ravintola/",
+      "lat": 60.2615618,
+      "lon": 24.68242,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bodomin_kartano_%28Bodom_manor%29.jpg/960px-Bodomin_kartano_%28Bodom_manor%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodomin_kartano_(Bodom_manor).jpg",
+        "attribution": "Paasikivi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "sourceRecords": [
+        {
+          "source": "Bodomin Kartano official contact and opening hours",
+          "url": "https://bodominkartano.fi/yhteystiedot",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the restaurant address, lunch/brunch service, and current opening hours."
+        },
+        {
+          "source": "Bodomin Kartano official restaurant page",
+          "url": "https://bodominkartano.fi/ravintola/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12441462402",
+          "recordId": "node/12441462402",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current business identity, address, operation, and links are confirmed by the operator."
+        },
+        {
+          "source": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Bodomin_kartano_(Bodom_manor).jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Paasikivi",
+          "note": "Photo of the Bodom manor building, licensed for reuse under CC BY-SA 4.0; attribution and license link are retained with the thumbnail."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:kipsari-otaniemi",
+      "name": "Kipsari",
+      "category": "cafe",
+      "city": "Espoo",
+      "address": {
+        "street": "Otaniementie 14",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.kipsari.com/",
+      "menuUrl": "https://www.kipsari.com/",
+      "lat": 60.1856935,
+      "lon": 24.8243743,
+      "sourceRecords": [
+        {
+          "source": "Kipsari official website",
+          "url": "https://www.kipsari.com/",
+          "fields": [
+            "name",
+            "category",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current site lists the Otaniemi cafeteria, weekday opening hours, and current lunch service. Kept in the cafe category per the directory’s cafeteria convention."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/5880866308",
+          "recordId": "node/5880866308",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current venue identity, address, operation, and links are confirmed from the official site."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
