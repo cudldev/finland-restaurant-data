@@ -15307,6 +15307,102 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:sotto-pizzeria-kapyla",
+      "name": "Sotto Pizzeria",
+      "branch": "Käpylä",
+      "city": "Helsinki",
+      "address": {
+        "street": "Mäkelänkatu 87",
+        "postalCode": "00610",
+        "country": "FI"
+      },
+      "website": "https://sotto.fi/ravintolat/helsinki-kapyla",
+      "menuUrl": "https://sotto.fi/ravintolat/helsinki-kapyla",
+      "lat": 60.209247,
+      "lon": 24.9460353,
+      "sourceRecords": [
+        {
+          "source": "Sotto Pizzeria Käpylä official branch page",
+          "url": "https://sotto.fi/ravintolat/helsinki-kapyla",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this branch, address, ordering/menu links, and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12067686974",
+          "recordId": "node/12067686974",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch name, address, operation, and links are confirmed on the operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:sotto-pizzeria-sompasaari",
+      "name": "Sotto Pizzeria",
+      "branch": "Sompasaari",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sompasaarenlaituri 14",
+        "postalCode": "00540",
+        "country": "FI"
+      },
+      "website": "https://sotto.fi/ravintolat/helsinki-sompasaari",
+      "menuUrl": "https://sotto.fi/ravintolat/helsinki-sompasaari",
+      "lat": 60.1807833,
+      "lon": 24.9740644,
+      "sourceRecords": [
+        {
+          "source": "Sotto Pizzeria Sompasaari official branch page",
+          "url": "https://sotto.fi/ravintolat/helsinki-sompasaari",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this branch, address, ordering/menu links, and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/9834013821",
+          "recordId": "node/9834013821",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch name, address, operation, and links are confirmed on the operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
