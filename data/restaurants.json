@@ -13569,6 +13569,902 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-biokeskus-2",
+      "name": "UniCafe Biokeskus 2",
+      "branch": "Biokeskus 2",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Viikinkaari 5",
+        "postalCode": "00790",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/biokeskus-3/",
+      "lat": 60.226247,
+      "lon": 25.016273,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13377607438",
+          "recordId": "node/13377607438",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Biokeskus 2; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Biokeskus 2. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-biokeskus",
+      "name": "UniCafe Biokeskus",
+      "branch": "Biokeskus",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Viikinkaari 9",
+        "postalCode": "00790",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/biokeskus/",
+      "lat": 60.2271228,
+      "lon": 25.0140143,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/90743296",
+          "recordId": "node/90743296",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Biokeskus; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Biokeskus. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-chemicum",
+      "name": "UniCafe Chemicum",
+      "branch": "Chemicum",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "A.I. Virtasen aukio 1",
+        "postalCode": "00560",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/chemicum/",
+      "lat": 60.2055999,
+      "lon": 24.9639498,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/764568061",
+          "recordId": "node/764568061",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Chemicum; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Chemicum. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-exactum",
+      "name": "UniCafe Exactum",
+      "branch": "Exactum",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Pietari Kalmin katu 5",
+        "postalCode": "00560",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/exactum/",
+      "lat": 60.2044199,
+      "lon": 24.9617693,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/1008002685",
+          "recordId": "node/1008002685",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Exactum; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Exactum. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-kaisa-talo",
+      "name": "UniCafe Kaisa-talo",
+      "branch": "Kaisa-talo",
+      "category": "cafe",
+      "city": "Helsinki",
+      "address": {
+        "street": "Vuorikatu 7",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/well-kaisa-talo/",
+      "lat": 60.1711441,
+      "lon": 24.9478607,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11350442774",
+          "recordId": "node/11350442774",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Kaisa-talo; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Kaisa-talo. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-kaivopiha",
+      "name": "UniCafe Kaivopiha",
+      "branch": "Kaivopiha",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Mannerheimintie 3 B",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/kaivopiha/",
+      "lat": 60.1693569,
+      "lon": 24.9407688,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/256200068",
+          "recordId": "node/256200068",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Kaivopiha; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Kaivopiha. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-meilahti",
+      "name": "UniCafe Meilahti",
+      "branch": "Meilahti",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Haartmaninkatu 3",
+        "postalCode": "00290",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/meilahti/",
+      "lat": 60.1905362,
+      "lon": 24.909113,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13368773201",
+          "recordId": "node/13368773201",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Meilahti; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Meilahti. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-metsatalo",
+      "name": "UniCafe Metsätalo",
+      "branch": "Metsätalo",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Fabianinkatu 39",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/metsatalo/",
+      "lat": 60.1726583,
+      "lon": 24.9492317,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/1007988780",
+          "recordId": "node/1007988780",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Metsätalo; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Metsätalo. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-olivia",
+      "name": "UniCafe Olivia",
+      "branch": "Olivia",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Siltavuorenpenger 5",
+        "postalCode": "00170",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/olivia/",
+      "lat": 60.1757964,
+      "lon": 24.9532146,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/1007988748",
+          "recordId": "node/1007988748",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Olivia; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Olivia. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-physicum",
+      "name": "UniCafe Physicum",
+      "branch": "Physicum",
+      "category": "cafe",
+      "city": "Helsinki",
+      "address": {
+        "street": "Gustaf Hällströmin katu 2",
+        "postalCode": "00560",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/physicum/",
+      "lat": 60.2048979,
+      "lon": 24.9628913,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/1412998560",
+          "recordId": "node/1412998560",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Physicum; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Physicum. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-serpens",
+      "name": "UniCafe Serpens",
+      "branch": "Serpens",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Töölönkatu 37",
+        "postalCode": "00260",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/serpens/",
+      "lat": 60.1823148,
+      "lon": 24.9226838,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/2518894913",
+          "recordId": "node/2518894913",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Serpens; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Serpens. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-soc-kom",
+      "name": "UniCafe Soc&Kom",
+      "branch": "Soc&Kom",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Yrjö-Koskisen katu 3",
+        "postalCode": "00170",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/sockom/",
+      "lat": 60.1729842,
+      "lon": 24.9527106,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/1007988735",
+          "recordId": "node/1007988735",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Soc&Kom; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Soc&Kom. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-terkko",
+      "name": "UniCafe Terkko",
+      "branch": "Terkko",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Haartmaninkatu 4",
+        "postalCode": "00290",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/terkko/",
+      "lat": 60.1895652,
+      "lon": 24.9098429,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13377607437",
+          "recordId": "node/13377607437",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Terkko; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Terkko. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-topelias",
+      "name": "UniCafe Topelias",
+      "branch": "Topelias",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Unioninkatu 38",
+        "postalCode": "00170",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/pesco-vege-topelias/",
+      "lat": 60.1718807,
+      "lon": 24.94935,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/1007988753",
+          "recordId": "node/1007988753",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Topelias; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Topelias. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-tahka",
+      "name": "UniCafe Tähkä",
+      "branch": "Tähkä",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Koetilantie 7",
+        "postalCode": "00790",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/tahka/",
+      "lat": 60.2231313,
+      "lon": 25.0191274,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/90740323",
+          "recordId": "node/90740323",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Tähkä; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Tähkä. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:unicafe-viikuna",
+      "name": "UniCafe Viikuna",
+      "branch": "Viikuna",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Agnes Sjöbergin katu 2",
+        "postalCode": "00790",
+        "country": "FI"
+      },
+      "website": "https://unicafe.fi/restaurants/viikuna/",
+      "lat": 60.2295647,
+      "lon": 25.0214932,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/391849313",
+          "recordId": "node/391849313",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location details and coordinates; current operating status is verified separately from UniCafe."
+        },
+        {
+          "source": "UniCafe official current restaurant/contact listing",
+          "url": "https://unicafe.fi/en/contact/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator contact page lists Viikuna; the official August 2026 reopening notice confirms current operation where applicable."
+        },
+        {
+          "source": "UniCafe official restaurant and menu-hours listing",
+          "url": "https://menu.unicafe.fi/info/aukioloajat",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current opening-hours interface lists Viikuna. Menu contents are not copied."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
