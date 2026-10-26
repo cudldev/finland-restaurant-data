@@ -15670,6 +15670,142 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:yuwas-thai-dining",
+      "name": "Yuwa's Thai Dining",
+      "city": "Helsinki",
+      "address": {
+        "street": "Lönnrotinkatu 33–35",
+        "postalCode": "00180",
+        "country": "FI"
+      },
+      "website": "https://yuwas.net/",
+      "menuUrl": "https://yuwas.net/",
+      "lat": 60.163708,
+      "lon": 24.9305928,
+      "sourceRecords": [
+        {
+          "source": "Yuwa's Thai Dining official contact page",
+          "url": "https://yuwas.net/yhteystiedot/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page identifies the Lönnrotinkatu restaurant and current lunch and dinner hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/297640402",
+          "recordId": "node/297640402",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only for the mapped Lönnrotinkatu 33–35 address point. The current operator name and operation are confirmed by Yuwa’s official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:marga-unioninkatu",
+      "name": "Ravintola Marga",
+      "city": "Helsinki",
+      "address": {
+        "street": "Unioninkatu 27",
+        "country": "FI"
+      },
+      "website": "https://ravintolamarga.fi/",
+      "menuUrl": "https://ravintolamarga.fi/",
+      "lat": 60.1685861,
+      "lon": 24.9512369,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Marga official website",
+          "url": "https://ravintolamarga.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page identifies Marga at Unioninkatu 27 and publishes café, weekday lunch, dinner, and brunch service hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/7648535938",
+          "recordId": "node/7648535938",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only for the mapped Unioninkatu 27 address point. The current Marga identity and operating status are confirmed by its official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:wave-of-flavors",
+      "name": "Wave of Flavors",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sturenkatu 28",
+        "country": "FI"
+      },
+      "website": "https://www.waveofflavors.fi/",
+      "menuUrl": "https://www.waveofflavors.fi/",
+      "lat": 60.1943147,
+      "lon": 24.9561949,
+      "sourceRecords": [
+        {
+          "source": "Wave of Flavors official website",
+          "url": "https://www.waveofflavors.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Sturenkatu address, opening hours, and current lunch/menu links."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13303083926",
+          "recordId": "node/13303083926",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current restaurant identity, address, operation, and links are confirmed by the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
