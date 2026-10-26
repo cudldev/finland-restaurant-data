@@ -15199,6 +15199,114 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-sitara-malmi",
+      "name": "Ravintola Sitara",
+      "city": "Helsinki",
+      "address": {
+        "street": "Takoraudantie 2",
+        "postalCode": "00700",
+        "country": "FI"
+      },
+      "website": "https://www.sitara.fi/",
+      "menuUrl": "https://www.sitara.fi/lounas/",
+      "lat": 60.2448124,
+      "lon": 25.0453989,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Sitara official website",
+          "url": "https://www.sitara.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official site identifies the Malmi lunch restaurant, address, and weekday opening hours."
+        },
+        {
+          "source": "Ravintola Sitara official lunch menu",
+          "url": "https://www.sitara.fi/lounas/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Linked as the live menu page; menu text and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13376466081",
+          "recordId": "node/13376466081",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-pirunsaari-sompasaari",
+      "name": "Ravintola Pirunsaari",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sompasaarenlaituri 24 LT3",
+        "postalCode": "00540",
+        "country": "FI"
+      },
+      "website": "https://pirunsaariravintola.fi/",
+      "menuUrl": "https://pirunsaariravintola.fi/lounas/",
+      "lat": 60.1787218,
+      "lon": 24.9716447,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Pirunsaari official website",
+          "url": "https://pirunsaariravintola.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Sompasaari address and offers ordering, table booking, and lunch service."
+        },
+        {
+          "source": "Ravintola Pirunsaari official lunch page",
+          "url": "https://pirunsaariravintola.fi/lounas/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Linked to the live weekly lunch page; menu text and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12401813565",
+          "recordId": "node/12401813565",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
