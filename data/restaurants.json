@@ -14627,6 +14627,107 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:toki-toki-opastinsilta",
+      "name": "Toki Toki",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Opastinsilta 2",
+        "postalCode": "00520",
+        "country": "FI"
+      },
+      "website": "https://www.tokitokiravintola.fi/",
+      "menuUrl": "https://www.tokitokiravintola.fi/en/palvelut/",
+      "lat": 60.1996516,
+      "lon": 24.9421273,
+      "sourceRecords": [
+        {
+          "source": "Toki Toki official website",
+          "url": "https://www.tokitokiravintola.fi/en/yhteystiedot/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official contact page lists the Helsinki address; the official home page shows current opening hours and lunch service."
+        },
+        {
+          "source": "Toki Toki official menu page",
+          "url": "https://www.tokitokiravintola.fi/en/palvelut/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/5556228958",
+          "recordId": "node/5556228958",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:leimu-arabianranta",
+      "name": "Leimu Café & Eatery",
+      "category": "cafe",
+      "city": "Helsinki",
+      "address": {
+        "street": "Hämeentie 135 A",
+        "postalCode": "00560",
+        "country": "FI"
+      },
+      "website": "https://cafeleimu.fi/",
+      "menuUrl": "https://cafeleimu.fi/",
+      "lat": 60.2087806,
+      "lon": 24.9762564,
+      "sourceRecords": [
+        {
+          "source": "Leimu Café & Eatery official website",
+          "url": "https://cafeleimu.fi/",
+          "fields": [
+            "name",
+            "category",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The official site describes the Arabianranta café and restaurant, publishes its current weekly lunch menu, and lists café and lunch service hours. Menu contents and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3675425327",
+          "recordId": "node/3675425327",
+          "fields": [
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Address and coordinates only; current business identity, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
