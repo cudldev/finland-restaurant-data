@@ -21,6 +21,7 @@ try {
     if (ids.has(place.id)) errors.push(`${label}.id duplicates ${place.id}`);
     ids.add(place.id);
     if (!Number.isFinite(place.lat) || !Number.isFinite(place.lon)) errors.push(`${label} needs numeric lat and lon`);
+    if (place.category && !['restaurant', 'cafe'].includes(place.category)) errors.push(`${label}.category must be restaurant or cafe when provided`);
     if (!Array.isArray(place.sourceRecords) || place.sourceRecords.length === 0) errors.push(`${label}.sourceRecords must not be empty`);
     if (!place.sourceRecords?.some((source) => source.url && source.fields?.length && source.checkedAt)) {
       errors.push(`${label} needs a dated source URL with the fields it supports`);

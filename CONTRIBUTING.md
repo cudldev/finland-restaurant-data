@@ -14,6 +14,7 @@ Edit [`data/restaurants.json`](data/restaurants.json). Keep one entry per physic
 
 - `id`: stable Lunumi location identifier in `frd:<city>:<slug>` form. Do not base it on an external provider ID.
 - `name`, `city`: location name and city.
+- `category`: optional app category, currently `restaurant` or `cafe`. Use `cafe` for cafeterias so they are shown as cafes rather than restaurant meal options.
 - `website`: official restaurant website, if available.
 - `menuUrl`: official menu page, if available.
 - `menuFeed`: feed published or linked by the restaurant itself, if verified.
