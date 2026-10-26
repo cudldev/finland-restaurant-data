@@ -15403,6 +15403,154 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:bistro-ranta-otaranta",
+      "name": "Bistro Ranta",
+      "city": "Espoo",
+      "address": {
+        "street": "Otaranta 2",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-espoo/ravintola-baari/ranta",
+      "menuUrl": "https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-espoo/ravintola-baari/ranta",
+      "lat": 60.1840086,
+      "lon": 24.8364318,
+      "sourceRecords": [
+        {
+          "source": "Bistro Ranta official page",
+          "url": "https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-espoo/ravintola-baari/ranta",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page identifies Bistro Ranta at Otaranta 2 and describes current food service and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/2071892285",
+          "recordId": "node/2071892285",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current restaurant identity, address, operation, and links are confirmed from the operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:edvin-pizza-napoletana-kauklahti",
+      "name": "Edvin Pizza Napoletana",
+      "city": "Espoo",
+      "address": {
+        "street": "Hans Westerlundintie 2",
+        "country": "FI"
+      },
+      "website": "https://www.edvinpizza.fi/",
+      "menuUrl": "https://www.edvinpizza.fi/menu",
+      "lat": 60.182443,
+      "lon": 24.6001561,
+      "sourceRecords": [
+        {
+          "source": "Edvin Pizza Napoletana official website",
+          "url": "https://www.edvinpizza.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Espoo pizzeria, address, and weekly opening hours."
+        },
+        {
+          "source": "Edvin Pizza Napoletana official menu",
+          "url": "https://www.edvinpizza.fi/menu",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11313943309",
+          "recordId": "node/11313943309",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current restaurant identity, official address, operation, and links are confirmed by the operator."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:cafe-zoceria-tarvaspaa",
+      "name": "Cafe Zoceria",
+      "branch": "Tarvaspää",
+      "category": "cafe",
+      "city": "Espoo",
+      "address": {
+        "street": "Gallen-Kallelan tie 27",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "website": "https://www.cafezoceria.fi/",
+      "menuUrl": "https://www.cafezoceria.fi/cafe-zoceria-tarvaspaa/",
+      "lat": 60.2062675,
+      "lon": 24.8380138,
+      "sourceRecords": [
+        {
+          "source": "Cafe Zoceria official Tarvaspää page",
+          "url": "https://www.cafezoceria.fi/cafe-zoceria-tarvaspaa/",
+          "fields": [
+            "name",
+            "branch",
+            "category",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The official page lists the Tarvaspää café, address, and winter-season opening hours from 31 August 2026."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/29424731",
+          "recordId": "way/29424731",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch identity, address, operation, and links are confirmed from the café’s official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
