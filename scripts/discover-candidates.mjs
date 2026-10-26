@@ -3,6 +3,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { preserveReviewState, readPreviousCandidates } from './review-state.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const apiUrl = 'https://api.hel.fi/servicemap/v2/';
@@ -81,6 +82,9 @@ async function getResults(url) {
 async function main() {
   const outputPath = resolve(root, argValue('--output', '.local/candidates.json'));
   const maxPages = Number.parseInt(argValue('--max-pages', '20'), 10);
+  const previousCandidates = await readPreviousCandidates(outputPath);
+  const dataset = JSON.parse(await readFile(resolve(root, 'data/restaurants.json'), 'utf8'));
+  const datasetIds = new Set((dataset.places ?? []).map((place) => place.id));
   const candidates = new Map();
   const queries = [];
 
@@ -95,6 +99,7 @@ async function main() {
         for (const item of results) {
           const candidate = candidateFrom(item, municipality, category);
           if (!candidate) continue;
+          preserveReviewState(candidate, previousCandidates.get(candidate.sourceId), datasetIds);
           const key = `${candidate.municipality}:${candidate.sourceId}`;
           const existing = candidates.get(key);
           if (existing) existing.serviceCategories = [...new Set([...existing.serviceCategories, category.label])];
