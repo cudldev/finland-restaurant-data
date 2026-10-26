@@ -32,11 +32,6 @@ function coordinates(element) {
   return { lat: element.center?.lat, lon: element.center?.lon };
 }
 
-function addressKey(city, postcode, street) {
-  if (!street) return '';
-  return [normalize(city), normalize(postcode), normalize(street)].join('|');
-}
-
 function candidate(element) {
   const tags = element.tags ?? {};
   const { lat, lon } = coordinates(element);
@@ -104,10 +99,13 @@ async function main() {
     seen.add(item.sourceId);
     const itemNames = new Set([normalize(item.name), normalize(item.brand)].filter(Boolean));
     const sameNamedAddress = item.address && knownPlaces.some(place => {
-      const placeNames = new Set([normalize(place.name), normalize(place.branch)].filter(Boolean));
+      const placeNames = new Set([normalize(place.name), normalize(place.brand)].filter(Boolean));
+      const sameStreet = normalize(item.address.street) === normalize(place.address?.street);
+      const samePostcode = !item.address.postalCode || !place.address?.postalCode
+        || normalize(item.address.postalCode) === normalize(place.address.postalCode);
+      const sameCity = !item.city || !place.city || normalize(item.city) === normalize(place.city);
       return [...itemNames].some(name => placeNames.has(name))
-        && addressKey(item.city, item.address.postalCode, item.address.street)
-          === addressKey(place.city, place.address?.postalCode, place.address?.street);
+        && sameStreet && samePostcode && sameCity;
     });
     const alreadyKnown = knownSourceIds.has(item.sourceId) || sameNamedAddress;
     if (alreadyKnown) {
