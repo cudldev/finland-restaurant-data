@@ -14465,6 +14465,161 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:hesburger-pihlajisto",
+      "name": "Hesburger",
+      "branch": "Pihlajisto",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Pihlajistontie 2",
+        "postalCode": "00710",
+        "country": "FI"
+      },
+      "website": "https://www.hesburger.fi/ravintolat?country=fi",
+      "lat": 60.2298977,
+      "lon": 25.009508,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3367919335",
+          "recordId": "node/3367919335",
+          "fields": [
+            "brand",
+            "branch",
+            "lat",
+            "lon",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "The OSM brand supplies the canonical display name; the OSM branch tag supplies the location name and OSM coordinates supply the map point. OSM amenity=fast_food is normalized to the directory category restaurant."
+        },
+        {
+          "source": "OpenStreetMap Nominatim reverse geocoding",
+          "url": "https://nominatim.openstreetmap.org/reverse?lat=60.2298977&lon=25.009508&format=jsonv2&addressdetails=1&zoom=18",
+          "recordId": "node/3367919335",
+          "fields": [
+            "city",
+            "address"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Address resolved from the OSM restaurant object coordinates; the object name and coordinates are separately cited to OSM."
+        },
+        {
+          "source": "Hesburger official restaurant listing",
+          "url": "https://www.hesburger.fi/ravintolat?country=fi",
+          "fields": [
+            "operatingStatus",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator locator lists this branch with opening hours. It is used here only to confirm operation and link to the restaurant; location details come from OpenStreetMap."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:hesburger-kamppi",
+      "name": "Hesburger",
+      "branch": "Kamppi",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Urho Kekkosen katu 1",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.hesburger.fi/ravintolat?tid=599",
+      "lat": 60.1686424,
+      "lon": 24.9313499,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3410380728",
+          "recordId": "node/3410380728",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location facts and coordinates; operation was checked separately against the operator listing. OSM amenity=fast_food is normalized to the directory category restaurant."
+        },
+        {
+          "source": "Hesburger official restaurant listing",
+          "url": "https://www.hesburger.fi/ravintolat?tid=599",
+          "fields": [
+            "operatingStatus",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator locator lists this branch with opening hours. It is used here only to confirm operation and link to the restaurant; location details come from OpenStreetMap."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:vantaa:hesburger-jumbo",
+      "name": "Hesburger",
+      "category": "restaurant",
+      "city": "Vantaa",
+      "address": {
+        "street": "Vantaanportinkatu 3",
+        "postalCode": "01510",
+        "country": "FI"
+      },
+      "website": "https://www.hesburger.fi/ravintolat?tid=112",
+      "lat": 60.2911599,
+      "lon": 24.9664741,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/294979747",
+          "recordId": "node/294979747",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "lat",
+            "lon",
+            "website",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Reusable location facts and coordinates; operation was checked separately against the operator listing. OSM amenity=fast_food is normalized to the directory category restaurant."
+        },
+        {
+          "source": "Hesburger official restaurant listing",
+          "url": "https://www.hesburger.fi/ravintolat?tid=112",
+          "fields": [
+            "operatingStatus",
+            "website"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator locator lists this branch with opening hours. It is used here only to confirm operation and link to the restaurant; location details come from OpenStreetMap."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
