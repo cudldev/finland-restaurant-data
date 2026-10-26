@@ -15806,6 +15806,163 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:villa-pentry",
+      "name": "Villa Pentry",
+      "city": "Espoo",
+      "address": {
+        "street": "Nuottarinne 2",
+        "country": "FI"
+      },
+      "website": "https://www.villapentry.fi/",
+      "menuUrl": "https://www.villapentry.fi/",
+      "lat": 60.145156,
+      "lon": 24.7361986,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Villa_Pentry_Espoo_2021-5-13.png/960px-Villa_Pentry_Espoo_2021-5-13.png",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Pentry_Espoo_2021-5-13.png",
+        "attribution": "Drefer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "sourceRecords": [
+        {
+          "source": "Villa Pentry official website",
+          "url": "https://www.villapentry.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current page lists September–December opening hours, weekday lunch service, and the Nuottarinne address."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/111348105",
+          "recordId": "way/111348105",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current business identity, address, operation, and links are confirmed from the official operator page."
+        },
+        {
+          "source": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Villa_Pentry_Espoo_2021-5-13.png",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Drefer",
+          "note": "Photo depicts the Villa Pentry building and is licensed under CC BY-SA 4.0; attribution and license link are retained."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:ravintola-maukas-otaniemi",
+      "name": "Ravintola Maukas",
+      "city": "Espoo",
+      "address": {
+        "street": "Vuorimiehentie 5",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.mau-kas.fi/maukas",
+      "menuUrl": "https://www.mau-kas.fi/maukas",
+      "lat": 60.1828277,
+      "lon": 24.8281208,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Maukas official website",
+          "url": "https://www.mau-kas.fi/maukas",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Otaniemi restaurant, weekday opening hours, and current weekly lunch menu."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/2381695985",
+          "recordId": "node/2381695985",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; the operator page confirms current restaurant identity, address, operation, and links."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:happy-friends-mankkaa-sinikalliontie",
+      "name": "Happy Friends",
+      "branch": "Mankkaa – Sinikalliontie",
+      "city": "Espoo",
+      "address": {
+        "street": "Sinikalliontie 7",
+        "postalCode": "02630",
+        "country": "FI"
+      },
+      "website": "https://happyfriends.fi/happy-friends-mankkaa-sinikalliontie-7/",
+      "menuUrl": "https://happyfriends.fi/happy-friends-mankkaa-sinikalliontie-7/",
+      "lat": 60.2053945,
+      "lon": 24.7626635,
+      "sourceRecords": [
+        {
+          "source": "Happy Friends official branch page",
+          "url": "https://happyfriends.fi/happy-friends-mankkaa-sinikalliontie-7/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current branch page lists this Mankkaa location, opening hours, and current weekly lunch menu."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/10722042943",
+          "recordId": "node/10722042943",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch identity, address, operation, and links are confirmed by Happy Friends."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
