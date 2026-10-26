@@ -3,6 +3,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { preserveReviewState, readPreviousCandidates } from './review-state.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const endpoint = 'https://overpass-api.de/api/interpreter';
@@ -67,7 +68,9 @@ function candidate(element) {
 
 async function main() {
   const outputPath = resolve(root, argValue('--output', '.local/osm-candidates.json'));
+  const previousCandidates = await readPreviousCandidates(outputPath);
   const dataset = JSON.parse(await readFile(resolve(root, 'data/restaurants.json'), 'utf8'));
+  const datasetIds = new Set((dataset.places ?? []).map((place) => place.id));
   const knownSourceIds = new Set();
   const knownPlaces = [];
   for (const place of dataset.places ?? []) {
@@ -108,8 +111,8 @@ async function main() {
         && sameStreet && samePostcode && sameCity;
     });
     const alreadyKnown = knownSourceIds.has(item.sourceId) || sameNamedAddress;
+    preserveReviewState(item, previousCandidates.get(item.sourceId), datasetIds, alreadyKnown);
     if (alreadyKnown) {
-      item.status = 'already_in_dataset_or_same_address';
       knownCount += 1;
     }
     candidates.push(item);
