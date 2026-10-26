@@ -15060,6 +15060,909 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ramen-ichiraku-kamppi",
+      "name": "Ramen Ichiraku",
+      "city": "Helsinki",
+      "address": {
+        "street": "Urho Kekkosen katu 1",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://ichiraku.fi/",
+      "menuUrl": "https://ichiraku.fi/",
+      "lat": 60.1695809,
+      "lon": 24.9335006,
+      "sourceRecords": [
+        {
+          "source": "Ramen Ichiraku official website",
+          "url": "https://ichiraku.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official page identifies the Kamppi Helsinki location, address, menu, and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/6742490273",
+          "recordId": "node/6742490273",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:cafe-flemari20",
+      "name": "Cafe Flemari20",
+      "category": "cafe",
+      "city": "Helsinki",
+      "address": {
+        "street": "Fleminginkatu 20",
+        "postalCode": "00510",
+        "country": "FI"
+      },
+      "website": "https://cafeflemari20.com/",
+      "menuUrl": "https://cafeflemari20.com/",
+      "lat": 60.1875317,
+      "lon": 24.9528627,
+      "sourceRecords": [
+        {
+          "source": "Cafe Flemari20 official website",
+          "url": "https://cafeflemari20.com/contact",
+          "fields": [
+            "name",
+            "category",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The official contact page lists the Kallio address and current Friday–Sunday hours; the home page confirms café and lunch service."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4972085223",
+          "recordId": "node/4972085223",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, category, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-lobo-katajanokka",
+      "name": "Ravintola LOBO",
+      "city": "Helsinki",
+      "address": {
+        "street": "Kanavakatu 3",
+        "postalCode": "00160",
+        "country": "FI"
+      },
+      "website": "https://ravintolalobo.fi/",
+      "menuUrl": "https://ravintolalobo.fi/",
+      "lat": 60.1663425,
+      "lon": 24.9648463,
+      "sourceRecords": [
+        {
+          "source": "Ravintola LOBO official website",
+          "url": "https://ravintolalobo.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official page describes the Katajanokka bistro, gives Kanavakatu 3, and lists Wednesday–Saturday hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12151886005",
+          "recordId": "node/12151886005",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only for the mapped Kanavakatu 3 address point. The OSM feature name is not used as the restaurant identity or operation evidence; those are confirmed by LOBO’s official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-sitara-malmi",
+      "name": "Ravintola Sitara",
+      "city": "Helsinki",
+      "address": {
+        "street": "Takoraudantie 2",
+        "postalCode": "00700",
+        "country": "FI"
+      },
+      "website": "https://www.sitara.fi/",
+      "menuUrl": "https://www.sitara.fi/lounas/",
+      "lat": 60.2448124,
+      "lon": 25.0453989,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Sitara official website",
+          "url": "https://www.sitara.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official site identifies the Malmi lunch restaurant, address, and weekday opening hours."
+        },
+        {
+          "source": "Ravintola Sitara official lunch menu",
+          "url": "https://www.sitara.fi/lounas/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Linked as the live menu page; menu text and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13376466081",
+          "recordId": "node/13376466081",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-pirunsaari-sompasaari",
+      "name": "Ravintola Pirunsaari",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sompasaarenlaituri 24 LT3",
+        "postalCode": "00540",
+        "country": "FI"
+      },
+      "website": "https://pirunsaariravintola.fi/",
+      "menuUrl": "https://pirunsaariravintola.fi/lounas/",
+      "lat": 60.1787218,
+      "lon": 24.9716447,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Pirunsaari official website",
+          "url": "https://pirunsaariravintola.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Sompasaari address and offers ordering, table booking, and lunch service."
+        },
+        {
+          "source": "Ravintola Pirunsaari official lunch page",
+          "url": "https://pirunsaariravintola.fi/lounas/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Linked to the live weekly lunch page; menu text and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12401813565",
+          "recordId": "node/12401813565",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:sotto-pizzeria-kapyla",
+      "name": "Sotto Pizzeria",
+      "branch": "Käpylä",
+      "city": "Helsinki",
+      "address": {
+        "street": "Mäkelänkatu 87",
+        "postalCode": "00610",
+        "country": "FI"
+      },
+      "website": "https://sotto.fi/ravintolat/helsinki-kapyla",
+      "menuUrl": "https://sotto.fi/ravintolat/helsinki-kapyla",
+      "lat": 60.209247,
+      "lon": 24.9460353,
+      "sourceRecords": [
+        {
+          "source": "Sotto Pizzeria Käpylä official branch page",
+          "url": "https://sotto.fi/ravintolat/helsinki-kapyla",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this branch, address, ordering/menu links, and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12067686974",
+          "recordId": "node/12067686974",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch name, address, operation, and links are confirmed on the operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:sotto-pizzeria-sompasaari",
+      "name": "Sotto Pizzeria",
+      "branch": "Sompasaari",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sompasaarenlaituri 14",
+        "postalCode": "00540",
+        "country": "FI"
+      },
+      "website": "https://sotto.fi/ravintolat/helsinki-sompasaari",
+      "menuUrl": "https://sotto.fi/ravintolat/helsinki-sompasaari",
+      "lat": 60.1807833,
+      "lon": 24.9740644,
+      "sourceRecords": [
+        {
+          "source": "Sotto Pizzeria Sompasaari official branch page",
+          "url": "https://sotto.fi/ravintolat/helsinki-sompasaari",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this branch, address, ordering/menu links, and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/9834013821",
+          "recordId": "node/9834013821",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch name, address, operation, and links are confirmed on the operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:bistro-ranta-otaranta",
+      "name": "Bistro Ranta",
+      "city": "Espoo",
+      "address": {
+        "street": "Otaranta 2",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-espoo/ravintola-baari/ranta",
+      "menuUrl": "https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-espoo/ravintola-baari/ranta",
+      "lat": 60.1840086,
+      "lon": 24.8364318,
+      "sourceRecords": [
+        {
+          "source": "Bistro Ranta official page",
+          "url": "https://www.radissonhotels.com/fi-fi/hotellit/radisson-blu-espoo/ravintola-baari/ranta",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page identifies Bistro Ranta at Otaranta 2 and describes current food service and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/2071892285",
+          "recordId": "node/2071892285",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current restaurant identity, address, operation, and links are confirmed from the operator page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:edvin-pizza-napoletana-kauklahti",
+      "name": "Edvin Pizza Napoletana",
+      "city": "Espoo",
+      "address": {
+        "street": "Hans Westerlundintie 2",
+        "country": "FI"
+      },
+      "website": "https://www.edvinpizza.fi/",
+      "menuUrl": "https://www.edvinpizza.fi/menu",
+      "lat": 60.182443,
+      "lon": 24.6001561,
+      "sourceRecords": [
+        {
+          "source": "Edvin Pizza Napoletana official website",
+          "url": "https://www.edvinpizza.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Espoo pizzeria, address, and weekly opening hours."
+        },
+        {
+          "source": "Edvin Pizza Napoletana official menu",
+          "url": "https://www.edvinpizza.fi/menu",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11313943309",
+          "recordId": "node/11313943309",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current restaurant identity, official address, operation, and links are confirmed by the operator."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:cafe-zoceria-tarvaspaa",
+      "name": "Cafe Zoceria",
+      "branch": "Tarvaspää",
+      "category": "cafe",
+      "city": "Espoo",
+      "address": {
+        "street": "Gallen-Kallelan tie 27",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "website": "https://www.cafezoceria.fi/",
+      "menuUrl": "https://www.cafezoceria.fi/cafe-zoceria-tarvaspaa/",
+      "lat": 60.2062675,
+      "lon": 24.8380138,
+      "sourceRecords": [
+        {
+          "source": "Cafe Zoceria official Tarvaspää page",
+          "url": "https://www.cafezoceria.fi/cafe-zoceria-tarvaspaa/",
+          "fields": [
+            "name",
+            "branch",
+            "category",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The official page lists the Tarvaspää café, address, and winter-season opening hours from 31 August 2026."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/29424731",
+          "recordId": "way/29424731",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch identity, address, operation, and links are confirmed from the café’s official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:bodomin-kartano",
+      "name": "Bodomin Kartano",
+      "city": "Espoo",
+      "address": {
+        "street": "Bodominkuja 7",
+        "postalCode": "02940",
+        "country": "FI"
+      },
+      "website": "https://bodominkartano.fi/",
+      "menuUrl": "https://bodominkartano.fi/ravintola/",
+      "lat": 60.2615618,
+      "lon": 24.68242,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bodomin_kartano_%28Bodom_manor%29.jpg/960px-Bodomin_kartano_%28Bodom_manor%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodomin_kartano_(Bodom_manor).jpg",
+        "attribution": "Paasikivi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "sourceRecords": [
+        {
+          "source": "Bodomin Kartano official contact and opening hours",
+          "url": "https://bodominkartano.fi/yhteystiedot",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the restaurant address, lunch/brunch service, and current opening hours."
+        },
+        {
+          "source": "Bodomin Kartano official restaurant page",
+          "url": "https://bodominkartano.fi/ravintola/",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-26"
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12441462402",
+          "recordId": "node/12441462402",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current business identity, address, operation, and links are confirmed by the operator."
+        },
+        {
+          "source": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Bodomin_kartano_(Bodom_manor).jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Paasikivi",
+          "note": "Photo of the Bodom manor building, licensed for reuse under CC BY-SA 4.0; attribution and license link are retained with the thumbnail."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:kipsari-otaniemi",
+      "name": "Kipsari",
+      "category": "cafe",
+      "city": "Espoo",
+      "address": {
+        "street": "Otaniementie 14",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.kipsari.com/",
+      "menuUrl": "https://www.kipsari.com/",
+      "lat": 60.1856935,
+      "lon": 24.8243743,
+      "sourceRecords": [
+        {
+          "source": "Kipsari official website",
+          "url": "https://www.kipsari.com/",
+          "fields": [
+            "name",
+            "category",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current site lists the Otaniemi cafeteria, weekday opening hours, and current lunch service. Kept in the cafe category per the directory’s cafeteria convention."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/5880866308",
+          "recordId": "node/5880866308",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current venue identity, address, operation, and links are confirmed from the official site."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:yuwas-thai-dining",
+      "name": "Yuwa's Thai Dining",
+      "city": "Helsinki",
+      "address": {
+        "street": "Lönnrotinkatu 33–35",
+        "postalCode": "00180",
+        "country": "FI"
+      },
+      "website": "https://yuwas.net/",
+      "menuUrl": "https://yuwas.net/",
+      "lat": 60.163708,
+      "lon": 24.9305928,
+      "sourceRecords": [
+        {
+          "source": "Yuwa's Thai Dining official contact page",
+          "url": "https://yuwas.net/yhteystiedot/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page identifies the Lönnrotinkatu restaurant and current lunch and dinner hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/297640402",
+          "recordId": "node/297640402",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only for the mapped Lönnrotinkatu 33–35 address point. The current operator name and operation are confirmed by Yuwa’s official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:marga-unioninkatu",
+      "name": "Ravintola Marga",
+      "city": "Helsinki",
+      "address": {
+        "street": "Unioninkatu 27",
+        "country": "FI"
+      },
+      "website": "https://ravintolamarga.fi/",
+      "menuUrl": "https://ravintolamarga.fi/",
+      "lat": 60.1685861,
+      "lon": 24.9512369,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Marga official website",
+          "url": "https://ravintolamarga.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page identifies Marga at Unioninkatu 27 and publishes café, weekday lunch, dinner, and brunch service hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/7648535938",
+          "recordId": "node/7648535938",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only for the mapped Unioninkatu 27 address point. The current Marga identity and operating status are confirmed by its official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:wave-of-flavors",
+      "name": "Wave of Flavors",
+      "city": "Helsinki",
+      "address": {
+        "street": "Sturenkatu 28",
+        "country": "FI"
+      },
+      "website": "https://www.waveofflavors.fi/",
+      "menuUrl": "https://www.waveofflavors.fi/",
+      "lat": 60.1943147,
+      "lon": 24.9561949,
+      "sourceRecords": [
+        {
+          "source": "Wave of Flavors official website",
+          "url": "https://www.waveofflavors.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Sturenkatu address, opening hours, and current lunch/menu links."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13303083926",
+          "recordId": "node/13303083926",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current restaurant identity, address, operation, and links are confirmed by the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:villa-pentry",
+      "name": "Villa Pentry",
+      "city": "Espoo",
+      "address": {
+        "street": "Nuottarinne 2",
+        "country": "FI"
+      },
+      "website": "https://www.villapentry.fi/",
+      "menuUrl": "https://www.villapentry.fi/",
+      "lat": 60.145156,
+      "lon": 24.7361986,
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Villa_Pentry_Espoo_2021-5-13.png/960px-Villa_Pentry_Espoo_2021-5-13.png",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Pentry_Espoo_2021-5-13.png",
+        "attribution": "Drefer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "sourceRecords": [
+        {
+          "source": "Villa Pentry official website",
+          "url": "https://www.villapentry.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current page lists September–December opening hours, weekday lunch service, and the Nuottarinne address."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/111348105",
+          "recordId": "way/111348105",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current business identity, address, operation, and links are confirmed from the official operator page."
+        },
+        {
+          "source": "Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Villa_Pentry_Espoo_2021-5-13.png",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Drefer",
+          "note": "Photo depicts the Villa Pentry building and is licensed under CC BY-SA 4.0; attribution and license link are retained."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:ravintola-maukas-otaniemi",
+      "name": "Ravintola Maukas",
+      "city": "Espoo",
+      "address": {
+        "street": "Vuorimiehentie 5",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.mau-kas.fi/maukas",
+      "menuUrl": "https://www.mau-kas.fi/maukas",
+      "lat": 60.1828277,
+      "lon": 24.8281208,
+      "sourceRecords": [
+        {
+          "source": "Ravintola Maukas official website",
+          "url": "https://www.mau-kas.fi/maukas",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Otaniemi restaurant, weekday opening hours, and current weekly lunch menu."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/2381695985",
+          "recordId": "node/2381695985",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; the operator page confirms current restaurant identity, address, operation, and links."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:espoo:happy-friends-mankkaa-sinikalliontie",
+      "name": "Happy Friends",
+      "branch": "Mankkaa – Sinikalliontie",
+      "city": "Espoo",
+      "address": {
+        "street": "Sinikalliontie 7",
+        "postalCode": "02630",
+        "country": "FI"
+      },
+      "website": "https://happyfriends.fi/happy-friends-mankkaa-sinikalliontie-7/",
+      "menuUrl": "https://happyfriends.fi/happy-friends-mankkaa-sinikalliontie-7/",
+      "lat": 60.2053945,
+      "lon": 24.7626635,
+      "sourceRecords": [
+        {
+          "source": "Happy Friends official branch page",
+          "url": "https://happyfriends.fi/happy-friends-mankkaa-sinikalliontie-7/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current branch page lists this Mankkaa location, opening hours, and current weekly lunch menu."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/10722042943",
+          "recordId": "node/10722042943",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; current branch identity, address, operation, and links are confirmed by Happy Friends."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
