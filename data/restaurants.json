@@ -15060,6 +15060,145 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ramen-ichiraku-kamppi",
+      "name": "Ramen Ichiraku",
+      "city": "Helsinki",
+      "address": {
+        "street": "Urho Kekkosen katu 1",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://ichiraku.fi/",
+      "menuUrl": "https://ichiraku.fi/",
+      "lat": 60.1695809,
+      "lon": 24.9335006,
+      "sourceRecords": [
+        {
+          "source": "Ramen Ichiraku official website",
+          "url": "https://ichiraku.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official page identifies the Kamppi Helsinki location, address, menu, and opening hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/6742490273",
+          "recordId": "node/6742490273",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:cafe-flemari20",
+      "name": "Cafe Flemari20",
+      "category": "cafe",
+      "city": "Helsinki",
+      "address": {
+        "street": "Fleminginkatu 20",
+        "postalCode": "00510",
+        "country": "FI"
+      },
+      "website": "https://cafeflemari20.com/",
+      "menuUrl": "https://cafeflemari20.com/",
+      "lat": 60.1875317,
+      "lon": 24.9528627,
+      "sourceRecords": [
+        {
+          "source": "Cafe Flemari20 official website",
+          "url": "https://cafeflemari20.com/contact",
+          "fields": [
+            "name",
+            "category",
+            "city",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The official contact page lists the Kallio address and current Friday–Sunday hours; the home page confirms café and lunch service."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4972085223",
+          "recordId": "node/4972085223",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; business identity, category, address, operation, and links are confirmed from the official website."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:ravintola-lobo-katajanokka",
+      "name": "Ravintola LOBO",
+      "city": "Helsinki",
+      "address": {
+        "street": "Kanavakatu 3",
+        "postalCode": "00160",
+        "country": "FI"
+      },
+      "website": "https://ravintolalobo.fi/",
+      "menuUrl": "https://ravintolalobo.fi/",
+      "lat": 60.1663425,
+      "lon": 24.9648463,
+      "sourceRecords": [
+        {
+          "source": "Ravintola LOBO official website",
+          "url": "https://ravintolalobo.fi/",
+          "fields": [
+            "name",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current official page describes the Katajanokka bistro, gives Kanavakatu 3, and lists Wednesday–Saturday hours."
+        },
+        {
+          "source": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12151886005",
+          "recordId": "node/12151886005",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only for the mapped Kanavakatu 3 address point. The OSM feature name is not used as the restaurant identity or operation evidence; those are confirmed by LOBO’s official page."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
