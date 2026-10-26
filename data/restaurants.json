@@ -4372,7 +4372,14 @@
       ],
       "checkedAt": "2026-10-26",
       "validated": true,
-      "lastValidatedAt": "2026-10-26"
+      "lastValidatedAt": "2026-10-26",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Hesburger_kebab_hamburger_in_2020.jpg/960px-Hesburger_kebab_hamburger_in_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hesburger_kebab_hamburger_in_2020.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     },
     {
       "id": "frd:helsinki:hesburger-itakeskus",
