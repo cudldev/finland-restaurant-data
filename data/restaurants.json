@@ -14728,6 +14728,338 @@
       "checkedAt": "2026-10-26",
       "validated": true,
       "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:the-pantry-ruoholahti",
+      "name": "The Pantry",
+      "branch": "Ruoholahti",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Itämerenkatu 3",
+        "postalCode": "00180",
+        "country": "FI"
+      },
+      "website": "https://thepantry.fi/ruoholahti",
+      "menuUrl": "https://thepantry.fi/ruoholahti",
+      "lat": 60.163699,
+      "lon": 24.919728,
+      "sourceRecords": [
+        {
+          "source": "The Pantry Ruoholahti official page",
+          "url": "https://thepantry.fi/ruoholahti",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this branch, weekday lunch and café hours, and its live menu. Menu contents and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/9868791958",
+          "recordId": "node/9868791958",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; branch identity, address, and operation are confirmed from the operator."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:the-pantry-hakaniemi",
+      "name": "The Pantry",
+      "branch": "Hakaniemi",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Siltasaarenkatu 10",
+        "postalCode": "00530",
+        "country": "FI"
+      },
+      "website": "https://thepantry.fi/hakaniemi",
+      "menuUrl": "https://thepantry.fi/hakaniemi",
+      "lat": 60.1778761,
+      "lon": 24.9496062,
+      "sourceRecords": [
+        {
+          "source": "The Pantry Hakaniemi official page",
+          "url": "https://thepantry.fi/hakaniemi",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this weekday lunch restaurant and publishes a live menu. Menu contents and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/2561386266",
+          "recordId": "node/2561386266",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Address-level map point for the official Siltasaarenkatu 10 address; OSM represents the frontage as the combined 6–10 building range."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_of_The_Pantry_Hakaniemi.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY-SA 4.0",
+          "attribution": "JIP",
+          "note": "Linked thumbnail only; image remains hosted by Wikimedia Commons."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Interior_of_The_Pantry_Hakaniemi.jpg/960px-Interior_of_The_Pantry_Hakaniemi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_The_Pantry_Hakaniemi.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Interior of The Pantry Hakaniemi, photographed 6 July 2023."
+      }
+    },
+    {
+      "id": "frd:helsinki:the-pantry-vallila",
+      "name": "The Pantry",
+      "branch": "Vallila",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Teollisuuskatu 21",
+        "postalCode": "00510",
+        "country": "FI"
+      },
+      "website": "https://thepantry.fi/vallila",
+      "menuUrl": "https://thepantry.fi/vallila",
+      "lat": 60.194193,
+      "lon": 24.9479854,
+      "sourceRecords": [
+        {
+          "source": "The Pantry Vallila official page",
+          "url": "https://thepantry.fi/vallila",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this weekday restaurant and lunch service with a live menu. Menu contents and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/1184142451",
+          "recordId": "node/1184142451",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Address point for Teollisuuskatu 21; business identity and operation are verified from the operator."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:the-pantry-sornainen",
+      "name": "The Pantry",
+      "branch": "Sörnäinen",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Lintulahdenkuja 10",
+        "postalCode": "00500",
+        "country": "FI"
+      },
+      "website": "https://thepantry.fi/sornainen",
+      "menuUrl": "https://thepantry.fi/sornainen",
+      "lat": 60.1843583,
+      "lon": 24.9638147,
+      "sourceRecords": [
+        {
+          "source": "The Pantry Sörnäinen official page",
+          "url": "https://thepantry.fi/sornainen",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists this weekday lunch restaurant and publishes a live menu. Menu contents and dietary claims are not copied."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/47930074",
+          "recordId": "way/47930074",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Address/building point for Lintulahdenkuja 10; business identity and operation are verified from the operator."
+        },
+        {
+          "source": "Wikimedia Commons photo",
+          "url": "https://commons.wikimedia.org/wiki/File:Salad_and_soup_at_The_Pantry_S%C3%B6rn%C3%A4inen_in_January_2025.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "CC BY-SA 4.0",
+          "attribution": "JIP",
+          "note": "Linked thumbnail only; image remains hosted by Wikimedia Commons."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Salad_and_soup_at_The_Pantry_S%C3%B6rn%C3%A4inen_in_January_2025.jpg/960px-Salad_and_soup_at_The_Pantry_S%C3%B6rn%C3%A4inen_in_January_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salad_and_soup_at_The_Pantry_S%C3%B6rn%C3%A4inen_in_January_2025.jpg",
+        "attribution": "JIP",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Salad and soup served at The Pantry Sörnäinen in January 2025."
+      }
+    },
+    {
+      "id": "frd:espoo:fat-lizard-otaniemi",
+      "name": "Fat Lizard",
+      "branch": "Otaniemi",
+      "category": "restaurant",
+      "city": "Espoo",
+      "address": {
+        "street": "Tietotie 1",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "website": "https://www.ravintolafatlizard.fi/en/otaniemi/",
+      "menuUrl": "https://www.ravintolafatlizard.fi/en/otaniemi/",
+      "lat": 60.1855753,
+      "lon": 24.8204025,
+      "sourceRecords": [
+        {
+          "source": "Fat Lizard Otaniemi official branch page",
+          "url": "https://www.ravintolafatlizard.fi/en/otaniemi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Otaniemi address, hours, menu, lunch, and brunch."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/5323641949",
+          "recordId": "node/5323641949",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; branch identity, address, and operation are confirmed from the operator."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
+    },
+    {
+      "id": "frd:helsinki:fat-lizard-toolo",
+      "name": "Fat Lizard",
+      "branch": "Töölö",
+      "category": "restaurant",
+      "city": "Helsinki",
+      "address": {
+        "street": "Helsinginkatu 56",
+        "postalCode": "00260",
+        "country": "FI"
+      },
+      "website": "https://www.ravintolafatlizard.fi/en/toolo/",
+      "menuUrl": "https://www.ravintolafatlizard.fi/en/toolo/",
+      "lat": 60.1825376,
+      "lon": 24.9312357,
+      "sourceRecords": [
+        {
+          "source": "Fat Lizard Töölö official branch page",
+          "url": "https://www.ravintolafatlizard.fi/en/toolo/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "The current operator page lists the Töölö address, opening hours, and menu."
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/23815666",
+          "recordId": "way/23815666",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors",
+          "note": "Coordinates only; branch identity, address, and operation are confirmed from the operator."
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "validated": true,
+      "lastValidatedAt": "2026-10-26"
     }
   ]
 }
