@@ -10,6 +10,8 @@ Each place has source URLs and `checkedAt` dates. Every field is tied to its sou
 
 ## Source approach
 
+See the maintainers' [source register](SOURCES.md) for collection roles, reuse status, attribution requirements, and a suggested refresh workflow. Add a source there and review its terms before introducing an automated collector.
+
 - Use the restaurant's own branch page as the primary source for its current name, address, website, and menu links when the source's reuse terms permit it. Otherwise, don't copy its locator data; independently source reusable location facts and use the official page only to check current operation.
 - Use the [Helsinki Metropolitan Area Service Map](https://hri.fi/data/en/dataset/paakaupunkiseudun-palvelukartan-rest-rajapinta) to discover candidate locations in Helsinki, Espoo, Vantaa and Kauniainen. It covers public and some private services, including restaurants, and offers REST/JSON and WFS APIs. Its catalog does not specify an update interval, so confirm candidate details against the restaurant's own page before adding them. The catalog lists CC BY 4.0; record its attribution if any of its data is used.
 - Use [Ruokavirasto's Oiva/Tietolaari data](https://www.ruokavirasto.fi/elintarvikkeet/elintarvikeala/elintarvikealan-uutiset/elintarvikevalvonnan-toimipaikkakohtaisia-tuloksia-voi-nyt-ladata-tietolaari-palvelusta/) as a regulatory cross-check, not as the restaurant directory. Its inspection results are published as local authorities perform inspections, cover up to six years, and are freely downloadable with source attribution. Food-premises data also includes businesses outside our restaurant scope.
