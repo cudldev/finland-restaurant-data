@@ -83971,6 +83971,477 @@
       "checkedAt": "2026-10-28",
       "validated": true,
       "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:vantaa:fazer-cafe-fazerila",
+      "name": "Fazer Café Fazerila",
+      "city": "Vantaa",
+      "category": "cafe",
+      "address": {
+        "street": "Fazerintie 6",
+        "postalCode": "01230",
+        "country": "FI"
+      },
+      "lat": 60.2567488,
+      "lon": 25.1054749,
+      "website": "https://www.visitfazer.com/fazer-cafe-fazerila/",
+      "menuUrl": "https://www.visitfazer.com/fazer-cafe-fazerila/lounas/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/11071761804",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Mapped reusable facts from the actual 2026-10-26 discovery snapshot; current operation verified separately.",
+          "recordId": "node/11071761804",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-lunch-page",
+          "url": "https://www.visitfazer.com/fazer-cafe-fazerila/lounas/",
+          "fields": [
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Readable named lunch page explicitly welcomes public guests and confirms prepared meals, independently resolving the analytics-only cafe homepage. Links only; no menu contents, prices or dietary labels copied."
+        },
+        {
+          "source": "operator-official-contact-page",
+          "url": "https://www.visitfazer.com/tietoa-meista/yhteystiedot/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Names Fazer Café Fazerila at visitor centre and exact matching Fazerintie 6 premises. The centre, shop and cafe are not counted as separate restaurants."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:vantaa:kuninkaan-lohet-vanha-viilatehdas",
+      "name": "Kuninkaan Lohet",
+      "branch": "Vanha Viilatehdas",
+      "city": "Vantaa",
+      "category": "restaurant",
+      "address": {
+        "street": "Kuninkaantie 28",
+        "postalCode": "01740",
+        "country": "FI"
+      },
+      "lat": 60.293473,
+      "lon": 24.8664891,
+      "website": "https://kuninkaanlohet.com/",
+      "menuUrl": "https://kuninkaanlohet.com/viilatehtaan-lounas/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/11054241304",
+          "fields": [
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Mapped reusable facts from the actual 2026-10-26 discovery snapshot; current operation verified separately.",
+          "recordId": "node/11054241304",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-lunch-page",
+          "url": "https://kuninkaanlohet.com/viilatehtaan-lounas/",
+          "fields": [
+            "name",
+            "branch",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Working bare hostname and specific public-lunch page resolve earlier unavailable www source. Current week 44 explicitly confirms general public lunch at Kuninkaantie 28, with private-event exceptions. Separate from booked-only Kuninkaan Kartano at Voudintie 1. Menu contents and hours not copied."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:vantaa:ravintola-backas-kartano",
+      "name": "Ravintola Backas",
+      "branch": "Kartano; public event dining by reservation",
+      "city": "Vantaa",
+      "category": "restaurant",
+      "address": {
+        "street": "Ylästöntie 28",
+        "country": "FI"
+      },
+      "lat": 60.2841155,
+      "lon": 24.9528945,
+      "website": "https://ravintolabackas.fi/",
+      "menuUrl": "https://ravintolabackas.fi/tapahtuma/joululounas/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/2289006131",
+          "fields": [
+            "city",
+            "category",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Mapped reusable facts from the actual 2026-10-26 discovery snapshot; current operation verified separately.",
+          "recordId": "node/2289006131",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-location-page",
+          "url": "https://ravintolabackas.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Operator confirms restaurant at mapped street address. Postcode omitted because operator 01510 differs from mapped 01520. Primarily advance-booked/event dining; do not represent as daily walk-in lunch."
+        },
+        {
+          "source": "operator-official-public-dining-event",
+          "url": "https://ravintolabackas.fi/tapahtuma/kartanon-isanpaiva/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Public 8 November 2026 family dining event offers individual table reservations; not restricted to hiring the whole venue."
+        },
+        {
+          "source": "operator-official-public-lunch-season",
+          "url": "https://ravintolabackas.fi/tapahtuma/joululounas/",
+          "fields": [
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Announced public Christmas lunch season at the manor. Dining-event URL only; no dishes, prices, hours or dietary labels copied."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:taffa-lunch-a-blanc",
+      "name": "Täffä Lunch",
+      "branch": "A Blanc, first floor",
+      "city": "Espoo",
+      "category": "restaurant",
+      "address": {
+        "street": "Otakaari 27",
+        "postalCode": "02150",
+        "country": "FI"
+      },
+      "lat": 60.1842961,
+      "lon": 24.83056,
+      "website": "https://lunch.tf.fi/",
+      "menuUrl": "https://lunch.tf.fi/api/menu/week/fin",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/580707759",
+          "fields": [
+            "city",
+            "category",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Mapped reusable facts from the actual 2026-10-26 discovery snapshot; current operation verified separately.",
+          "recordId": "node/580707759",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-current-tenant-page",
+          "url": "https://ablanc.fi/liikkeet/taffa-lunch/",
+          "fields": [
+            "name",
+            "branch",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named tenant page confirms public lunch restaurant at A Blanc, Otakaari 27. Operator and older campus contact pages still mention Otakaari 22; that old point is not transferred."
+        },
+        {
+          "source": "operator-official-current-lunch-feed",
+          "url": "https://lunch.tf.fi/api/menu/week/fin",
+          "fields": [
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "First-party public endpoint returns current 28-30 October 2026 lunch dates. Store link only; no menu or allergy data copied and no automated refresh configured."
+        },
+        {
+          "source": "venue-official-relocation-announcement",
+          "url": "https://ablanc.fi/a-blanciin-avautuu-remontin-jalkeen-uusi-ravintolaoperaattori-taffa-lunch-muuttaa-keskukseen/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "June announcement explains lunch and evening event operations moving during renovation; current tenant page confirms now operating. Lunch restaurant counted once, not as a second record for evening Täffä AB."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:kung-food-panda-sello",
+      "name": "Kung Food Panda",
+      "branch": "Sello, first floor",
+      "city": "Espoo",
+      "category": "restaurant",
+      "address": {
+        "street": "Leppävaarankatu 3-9",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "lat": 60.2174735,
+      "lon": 24.8113192,
+      "website": "https://www.sello.fi/ravintolat-espoo/kung-food-panda",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/6090324790",
+          "fields": [
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only mall query Sello, Espoo, Finland. Sello address point 3-9, Leppävaarankatu; approximate shared mall location, not an individual restaurant entrance or identity. Query reference: https://nominatim.openstreetmap.org/search?q=Sello%2C+Espoo%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/6090324790",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-named-restaurant-page",
+          "url": "https://www.sello.fi/ravintolat-espoo/kung-food-panda",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named mall page confirms prepared meal service and first floor location. Manually typed basic facts only; no food descriptions, dishes, prices, schedules or photos copied."
+        },
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/4254040742",
+          "fields": [
+            "name",
+            "city",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Mapped reusable facts from the actual 2026-10-26 discovery snapshot; current operation verified separately.",
+          "recordId": "node/4254040742",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:lime-leaf-sello",
+      "name": "Lime Leaf",
+      "branch": "Sello, leisure centre, second floor",
+      "city": "Espoo",
+      "category": "restaurant",
+      "address": {
+        "street": "Leppävaarankatu 3-9",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "lat": 60.2174735,
+      "lon": 24.8113192,
+      "website": "https://www.sello.fi/ravintolat-espoo/lime-leaf",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/6090324790",
+          "fields": [
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only mall query Sello, Espoo, Finland. Sello address point 3-9, Leppävaarankatu; approximate shared mall location, not an individual restaurant entrance or identity. Query reference: https://nominatim.openstreetmap.org/search?q=Sello%2C+Espoo%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/6090324790",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-named-restaurant-page",
+          "url": "https://www.sello.fi/ravintolat-espoo/lime-leaf",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named mall page confirms prepared meal service and leisure centre, second floor location. Manually typed basic facts only; no food descriptions, dishes, prices, schedules or photos copied."
+        },
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/6090324811",
+          "fields": [
+            "name",
+            "city",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Mapped reusable facts from the actual 2026-10-26 discovery snapshot; current operation verified separately.",
+          "recordId": "node/6090324811",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:pho-station-sello",
+      "name": "Pho Station",
+      "branch": "Sello, first floor",
+      "city": "Espoo",
+      "category": "restaurant",
+      "address": {
+        "street": "Leppävaarankatu 3-9",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "lat": 60.2174735,
+      "lon": 24.8113192,
+      "website": "https://www.sello.fi/ravintolat-espoo/pho-station",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/6090324790",
+          "fields": [
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only mall query Sello, Espoo, Finland. Sello address point 3-9, Leppävaarankatu; approximate shared mall location, not an individual restaurant entrance or identity. Query reference: https://nominatim.openstreetmap.org/search?q=Sello%2C+Espoo%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/6090324790",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-named-restaurant-page",
+          "url": "https://www.sello.fi/ravintolat-espoo/pho-station",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named mall page confirms prepared meal service and first floor location. Manually typed basic facts only; no food descriptions, dishes, prices, schedules or photos copied."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:seoul-good-sello",
+      "name": "Seoul Good",
+      "branch": "Sello, leisure centre, second floor",
+      "city": "Espoo",
+      "category": "restaurant",
+      "address": {
+        "street": "Leppävaarankatu 3-9",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "lat": 60.2174735,
+      "lon": 24.8113192,
+      "website": "https://www.seoulgood.fi/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/6090324790",
+          "fields": [
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only mall query Sello, Espoo, Finland. Sello address point 3-9, Leppävaarankatu; approximate shared mall location, not an individual restaurant entrance or identity. Query reference: https://nominatim.openstreetmap.org/search?q=Sello%2C+Espoo%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/6090324790",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-named-restaurant-page",
+          "url": "https://www.sello.fi/ravintolat-espoo/seoul-good",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named mall page confirms prepared meal service and leisure centre, second floor location. Manually typed basic facts only; no food descriptions, dishes, prices, schedules or photos copied."
+        },
+        {
+          "source": "operator-official-branch-locator",
+          "url": "https://www.seoulgood.fi/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current Sello branch gives matching Leppävaarankatu 3-9 address and phone 0414782231."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
     }
   ]
 }
