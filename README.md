@@ -51,4 +51,4 @@ Links to restaurant websites and Commons file pages are references; the database
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md). One record represents one location. Please submit corrections or new records as a pull request and include the source pages and date checked.
 
-This repository is maintained separately from the Lunumi app. Lunumi's Pages build checks out the public `main` branch and packages this file into both live and staging sites.
+This repository is maintained separately from the Lunumi app. Lunumi's Pages build packages the `main` data branch into live and the `staging` data branch into staging.
