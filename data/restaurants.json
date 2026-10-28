@@ -32641,11 +32641,30 @@
           ],
           "checkedAt": "2026-10-28",
           "note": "Official location individually reviewed for matching address, dining service and operation. Manually entered directory facts and reference links only; no menu or descriptive text copied."
+        },
+        {
+          "source": "Wikimedia Commons file page",
+          "url": "https://commons.wikimedia.org/wiki/File:Ravintola_Sea_Horse_Helsinki.JPG",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Individually reviewed file identity, creator and reuse license. Remote thumbnail returned HTTP 200; historical photo dated 2015-08-08. Image stays externally hosted.",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Lakritsa"
         }
       ],
       "checkedAt": "2026-10-28",
       "validated": true,
-      "lastValidatedAt": "2026-10-28"
+      "lastValidatedAt": "2026-10-28",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Ravintola_Sea_Horse_Helsinki.JPG/960px-Ravintola_Sea_Horse_Helsinki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ravintola_Sea_Horse_Helsinki.JPG",
+        "attribution": "Lakritsa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "note": "Historical restaurant photograph, 2015-08-08. Does not establish current appearance or operation."
+      }
     },
     {
       "id": "frd:helsinki:segreto",
@@ -47389,11 +47408,30 @@
           ],
           "checkedAt": "2026-10-28",
           "note": "Official location individually reviewed for matching address, dining service and operation. Manually entered directory facts and reference links only; no menu or descriptive text copied."
+        },
+        {
+          "source": "Wikimedia Commons file page",
+          "url": "https://commons.wikimedia.org/wiki/File:Ravintolaelite.JPG",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Individually reviewed file identity, creator and reuse license. Remote thumbnail returned HTTP 200; historical photo dated 2008-09-20. Image stays externally hosted.",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Jisis"
         }
       ],
       "checkedAt": "2026-10-28",
       "validated": true,
-      "lastValidatedAt": "2026-10-28"
+      "lastValidatedAt": "2026-10-28",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ravintolaelite.JPG/960px-Ravintolaelite.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ravintolaelite.JPG",
+        "attribution": "Jisis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "note": "Historical restaurant photograph, 2008-09-20. Does not establish current appearance or operation."
+      }
     },
     {
       "id": "frd:helsinki:factory-kalasatama",
@@ -83694,6 +83732,248 @@
           ],
           "checkedAt": "2026-10-28",
           "note": "Working named branch page confirms prepared meal service. Availability used as evidence only; food descriptions/images not copied."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:cafe-harbo",
+      "name": "Cafe Harbö",
+      "city": "Helsinki",
+      "category": "cafe",
+      "address": {
+        "street": "Harbonkatu 13",
+        "postalCode": "00980",
+        "country": "FI"
+      },
+      "website": "https://naturaviva.fi/en_US/cafeharbo",
+      "lat": 60.1977928,
+      "lon": 25.1283537,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/13845075011",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from the actual 2026-10-26 discovery snapshot. Current operation checked separately.",
+          "recordId": "node/13845075011",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-seasonal-cafe-page",
+          "url": "https://naturaviva.fi/en_US/cafeharbo",
+          "fields": [
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Operator confirms a public seasonal dining cafe opened May 2026 at Vuosaari Paddling Centre. Published 2026 season ends in September; this record does not claim it is open in October. No menu contents or schedules copied."
+        },
+        {
+          "source": "operator-official-location-page",
+          "url": "https://naturaviva.fi/fi_FI/vuosaaren-melontakeskus",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Confirms Cafe Harbö at the paddling centre and matching Harbonkatu 13 premises."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:hima-sali",
+      "name": "Ravintola Hima & Sali",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Tallberginkatu 1 C",
+        "postalCode": "00180",
+        "country": "FI"
+      },
+      "website": "https://www.himasali.com/",
+      "menuUrl": "https://www.himasali.com/lounas-ruoholahti/",
+      "lat": 60.161828,
+      "lon": 24.902444,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/57715360",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from the actual 2026-10-26 discovery snapshot. Current operation checked separately.",
+          "recordId": "node/57715360",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-contact-page",
+          "url": "https://www.himasali.com/yhteystieto/",
+          "fields": [
+            "website",
+            "address",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Working www hostname resolves the previously unavailable bare-domain lead. Operator confirms public restaurant and courtyard C / waterfront K entrances. Basic address manually typed; descriptions not copied."
+        },
+        {
+          "source": "operator-official-lunch-page",
+          "url": "https://www.himasali.com/lounas-ruoholahti/",
+          "fields": [
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Direct first-party lunch reference; menu dishes, prices and dietary claims are not copied."
+        },
+        {
+          "source": "venue-official-dining-directory",
+          "url": "https://www.kaapelitehdas.fi/en/cafes-and-restaurants/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Host independently lists public lunch and cafe service."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:traba-kaapelitehdas",
+      "name": "Ravintola Traba",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Kaapeliaukio 3",
+        "postalCode": "00180",
+        "country": "FI"
+      },
+      "website": "https://www.traba.fi/",
+      "menuUrl": "https://www.traba.fi/lounas",
+      "lat": 60.1621797,
+      "lon": 24.9057779,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/9547164093",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only query Kaapeliaukio 3, Helsinki, Finland. Approximate shared address point; not a restaurant entrance or evidence these separately named operators are duplicates. Query reference: https://nominatim.openstreetmap.org/search?q=Kaapeliaukio+3%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/9547164093",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-lunch-and-location-page",
+          "url": "https://www.traba.fi/lounas",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current operator page confirms public weekday dining and exact premises. Menu link retained only; displayed dated weekly dishes are not assumed current or copied. Basic facts manually typed."
+        },
+        {
+          "source": "venue-official-dining-directory",
+          "url": "https://www.kaapelitehdas.fi/en/cafes-and-restaurants/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Host lists Traba separately from Hima & Sali and Kahvibaari."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:kaapelitehtaan-kahvibaari",
+      "name": "Kaapelitehtaan Kahvibaari",
+      "city": "Helsinki",
+      "category": "cafe",
+      "address": {
+        "street": "Kaapeliaukio 3",
+        "postalCode": "00180",
+        "country": "FI"
+      },
+      "website": "https://www.kaapelitehdas.fi/en/cafes-and-restaurants/",
+      "lat": 60.1621797,
+      "lon": 24.9057779,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/9547164093",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only query Kaapeliaukio 3, Helsinki, Finland. Approximate shared address point; not a restaurant entrance or evidence these separately named operators are duplicates. Query reference: https://nominatim.openstreetmap.org/search?q=Kaapeliaukio+3%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/9547164093",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-page",
+          "url": "https://www.kaapelitehdas.fi/en/cafes-and-restaurants/",
+          "fields": [
+            "name",
+            "category",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Operator explicitly confirms public cafe with prepared warm food. Basic facts manually typed; food text and images not copied."
+        },
+        {
+          "source": "operator-official-contact-page",
+          "url": "https://www.kaapelitehdas.fi/en/contact-us/",
+          "fields": [
+            "address",
+            "city",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Cultural centre visiting address and named Kahvibaari operator/contact confirmed. Separate from Traba and Hima & Sali. Old Cafe Cable at Itämerenkatu 30 is not assumed identical."
+        },
+        {
+          "source": "operator-official-tenant-guide",
+          "url": "https://www.kaapelitehdas.fi/vuokralaisopas/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Guide locates Kahvibaari entrance at A staircase / Glass Courtyard; approximate address coordinates only."
         }
       ],
       "checkedAt": "2026-10-28",
