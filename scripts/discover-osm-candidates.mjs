@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { preserveReviewState, readPreviousCandidates } from './review-state.mjs';
+import { preserveReviewState, readPreviousCandidates, retainMissingReviews, identitySourceIds } from './review-state.mjs';
+import { assertCandidateOutput, writeCandidateReport } from './candidate-output.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const endpoint = 'https://overpass-api.de/api/interpreter';
@@ -68,15 +69,13 @@ function candidate(element) {
 
 async function main() {
   const outputPath = resolve(root, argValue('--output', '.local/osm-candidates.json'));
+  await assertCandidateOutput(root, outputPath);
   const previousCandidates = await readPreviousCandidates(outputPath);
   const dataset = JSON.parse(await readFile(resolve(root, 'data/restaurants.json'), 'utf8'));
   const datasetIds = new Set((dataset.places ?? []).map((place) => place.id));
-  const knownSourceIds = new Set();
+  const knownSourceIds = identitySourceIds(dataset.places ?? []);
   const knownPlaces = [];
   for (const place of dataset.places ?? []) {
-    for (const source of place.sourceRecords ?? []) {
-      if (source.recordId) knownSourceIds.add(source.recordId);
-    }
     if (place.address?.street) knownPlaces.push(place);
   }
 
@@ -111,13 +110,15 @@ async function main() {
         && sameStreet && samePostcode && sameCity;
     });
     const alreadyKnown = knownSourceIds.has(item.sourceId) || sameNamedAddress;
+    item.missingFromLatestDiscovery = false;
+    if (alreadyKnown) item.status = 'already_in_dataset_or_same_address';
     preserveReviewState(item, previousCandidates.get(item.sourceId), datasetIds, alreadyKnown);
-    if (alreadyKnown) {
-      knownCount += 1;
-    }
     candidates.push(item);
   }
 
+  retainMissingReviews(candidates, previousCandidates);
+  knownCount = candidates.filter(item => ['added_to_dataset', 'already_in_dataset_or_same_address'].includes(item.status)).length;
+  const unreviewedCount = candidates.filter(item => item.status === 'needs_official_validation').length;
   candidates.sort((a, b) => `${a.city ?? ''}:${a.name}:${a.address?.street ?? ''}`
     .localeCompare(`${b.city ?? ''}:${b.name}:${b.address?.street ?? ''}`, 'fi'));
   const report = {
@@ -133,13 +134,12 @@ async function main() {
     query,
     candidateCount: candidates.length,
     alreadyKnownCount: knownCount,
-    needsValidationCount: candidates.length - knownCount,
+    needsValidationCount: unreviewedCount,
     candidates
   };
-  await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  await writeCandidateReport(root, outputPath, report);
   console.log(`Wrote ${candidates.length} OSM candidates to ${outputPath}`);
-  console.log(`${knownCount} match current records by OSM object ID or address; ${candidates.length - knownCount} still need current-operation validation.`);
+  console.log(`${knownCount} already reviewed/known; ${unreviewedCount} unreviewed; deferred reviews remain in the report.`);
   console.log('This report stays local and is not copied into data/restaurants.json automatically.');
 }
 

@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { preserveReviewState, readPreviousCandidates } from './review-state.mjs';
+import { preserveReviewState, readPreviousCandidates, retainMissingReviews } from './review-state.mjs';
+import { assertCandidateOutput, writeCandidateReport } from './candidate-output.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const apiUrl = 'https://api.hel.fi/servicemap/v2/';
@@ -81,6 +82,7 @@ async function getResults(url) {
 
 async function main() {
   const outputPath = resolve(root, argValue('--output', '.local/candidates.json'));
+  await assertCandidateOutput(root, outputPath);
   const maxPages = Number.parseInt(argValue('--max-pages', '20'), 10);
   const previousCandidates = await readPreviousCandidates(outputPath);
   const dataset = JSON.parse(await readFile(resolve(root, 'data/restaurants.json'), 'utf8'));
@@ -115,7 +117,7 @@ async function main() {
     }
   }
 
-  const places = [...candidates.values()].sort((a, b) =>
+  const places = retainMissingReviews([...candidates.values()], previousCandidates).sort((a, b) =>
     `${a.municipality}:${a.name}:${a.address ?? ''}`.localeCompare(`${b.municipality}:${b.name}:${b.address ?? ''}`, 'fi')
   );
   const report = {
@@ -130,8 +132,7 @@ async function main() {
     candidateCount: places.length,
     candidates: places
   };
-  await mkdir(dirname(outputPath), { recursive: true });
-  await writeFile(outputPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  await writeCandidateReport(root, outputPath, report);
   console.log(`Wrote ${places.length} distinct candidate locations to ${outputPath}`);
   console.log('Candidates are unverified leads and were not added to data/restaurants.json.');
 }
