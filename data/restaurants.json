@@ -84827,6 +84827,447 @@
       "checkedAt": "2026-10-28",
       "validated": true,
       "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:druttes-pizza",
+      "name": "Drutte’s Pizza",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Tilkankatu 1",
+        "postalCode": "00300",
+        "country": "FI"
+      },
+      "lat": 60.2038494,
+      "lon": 24.8952658,
+      "website": "https://druttespizza.fi/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/2611645474",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 source snapshot; current operation checked separately.",
+          "recordId": "node/2611645474",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-page",
+          "url": "https://druttespizza.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Live operator pizzeria page confirms Pikku-Huopalahti dining but street is not rendered. Current municipal named page independently matches exact Tilkankatu 1 premises and same operator website; reusable location fields remain from OSM. No relocation or closure inferred. Mapped fast_food normalized to directory restaurant category."
+        },
+        {
+          "source": "municipal-named-business-page",
+          "url": "https://www.myhelsinki.fi/places/druttes-pizza/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Municipal named venue page confirms mapped full address and links the exact operator domain."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:bistro-bar-miljoo",
+      "name": "Bistro & Bar Miljöö",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Runeberginkatu 40",
+        "postalCode": "00260",
+        "country": "FI"
+      },
+      "lat": 60.1781072,
+      "lon": 24.9223865,
+      "website": "https://bistromiljoo.fi/",
+      "menuUrl": "https://bistromiljoo.fi/menu/lounas/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/603811814",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 source snapshot; current operation checked separately.",
+          "recordId": "node/603811814",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-page",
+          "url": "https://bistromiljoo.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "website",
+            "operatingStatus",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current matching-name operator site resolves old toolonsavel.fi failure. Exact Runeberginkatu 40 contact and public prepared lunch/dinner confirmed."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:bistro-cafe-briossi",
+      "name": "Bistro-Café Briossi",
+      "city": "Helsinki",
+      "category": "cafe",
+      "address": {
+        "street": "Kalevankatu 9",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "lat": 60.1674438,
+      "lon": 24.9380094,
+      "website": "https://briossi.com/",
+      "menuUrl": "https://briossi.com/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/1378007270",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 source snapshot; current operation checked separately.",
+          "recordId": "node/1378007270",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-page",
+          "url": "https://briossi.com/",
+          "fields": [
+            "name",
+            "branch",
+            "website",
+            "operatingStatus",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Working .com domain confirms Kalevankatu 9 premises and prepared breakfast/lunch meals; .fi failure is not closure. Menu link only; displayed old week 42 dishes are not assumed current or copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:espoo:cafe-merenneito-matinkyla",
+      "name": "Café Merenneito",
+      "branch": "Matinkylä; seasonal closure November–December",
+      "city": "Espoo",
+      "category": "cafe",
+      "address": {
+        "street": "Matinlahdenranta 3",
+        "postalCode": "02230",
+        "country": "FI"
+      },
+      "lat": 60.1509152,
+      "lon": 24.756459,
+      "website": "https://cafemerenneito.fi/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/279625777",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 source snapshot; current operation checked separately.",
+          "recordId": "node/279625777",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-page",
+          "url": "https://cafemerenneito.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Operator explicitly confirms soup/salad meals and exact Matinlahdenranta 3 address. Annual November–December closure is disclosed in branch label; record does not claim unrestricted year-round availability."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:ravintola-fregatti-columbus",
+      "name": "Ravintola Fregatti",
+      "branch": "Columbus, Toritaso",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Valkopaadentie 1",
+        "postalCode": "00980",
+        "country": "FI"
+      },
+      "lat": 60.2068002,
+      "lon": 25.1451115,
+      "website": "https://www.ravintolafregatti.fi/",
+      "menuUrl": "https://www.ravintolafregatti.fi/lounas",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/796663776",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Fresh coordinate-only query Valkopaadentie 1, Helsinki, Finland. Approximate address/building point, not a verified dining entrance or restaurant identity. Query reference: https://nominatim.openstreetmap.org/search?q=Valkopaadentie+1%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/796663776",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/73112175",
+          "fields": [
+            "name",
+            "city",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 source snapshot; current operation checked separately.",
+          "recordId": "node/73112175",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-contact-and-dining-page",
+          "url": "https://www.ravintolafregatti.fi/",
+          "fields": [
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Operator gives Valkopaadentie 1 and public meals. Old Vuotie 45 point retained only in queue; not transferred to the current address."
+        },
+        {
+          "source": "venue-official-named-dining-page",
+          "url": "https://columbus.fi/liikkeet/ravintola-fregatti/",
+          "fields": [
+            "branch",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current named mall page confirms matching phone 093433362 and Toritaso. Separate from other Columbus restaurants."
+        },
+        {
+          "source": "operator-official-lunch-page",
+          "url": "https://www.ravintolafregatti.fi/lounas",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "First-party lunch reference only; no menu contents, prices or dietary claims copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:finlandia-bistro",
+      "name": "Finlandia Bistro",
+      "branch": "Finlandia Hall, floor 0; event evenings or advance booking",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Karamzininranta 4",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "lat": 60.1757026,
+      "lon": 24.9341369,
+      "website": "https://www.finlandiatalo.fi/ravintolapalvelut/finlandiabistro/",
+      "menuUrl": "https://www.finlandiatalo.fi/ravintolapalvelut/finlandiabistro/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/11681509731",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Fresh coordinate-only query Karamzininranta 4, Helsinki, Finland. Approximate address/building point, not a verified dining entrance or restaurant identity. Query reference: https://nominatim.openstreetmap.org/search?q=Karamzininranta+4%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/11681509731",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-bistro-page",
+          "url": "https://www.finlandiatalo.fi/ravintolapalvelut/finlandiabistro/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current page confirms floor-0 public event-evening à la carte with individual table booking plus private/group service. Not represented as a daily walk-in lunch. Separate named room from Cafe&Wine; linked group menus are not assumed a daily menu. Basic facts manually typed; no page descriptions or menus copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:finlandia-cafe-wine",
+      "name": "Finlandia Cafe&Wine",
+      "branch": "Finlandia Hall, café level",
+      "city": "Helsinki",
+      "category": "cafe",
+      "address": {
+        "street": "Mannerheimintie 13 E",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "lat": 60.1758219,
+      "lon": 24.93356,
+      "website": "https://www.finlandiatalo.fi/en/restaurants/finlandia-cafewine/",
+      "menuUrl": "https://www.finlandiatalo.fi/en/restaurants/finlandia-cafewine/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/8034126",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Fresh coordinate-only query Mannerheimintie 13 E, Helsinki, Finland. Approximate address/building point, not a verified dining entrance or restaurant identity. Query reference: https://nominatim.openstreetmap.org/search?q=Mannerheimintie+13+E%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/8034126",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-cafe-and-lunch-page",
+          "url": "https://www.finlandiatalo.fi/en/restaurants/finlandia-cafewine/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Named public cafe offers prepared soup lunch and brunch; distinct from floor-0 event Bistro. Cafe page states Mannerheimintie 13 e and access from Karamzininranta side; own published address retained. Shared building point is approximate. Basic facts and links only."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:restaurant-nord-royal",
+      "name": "Restaurant NORD",
+      "branch": "Radisson Blu Royal Hotel",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Runeberginkatu 2",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "lat": 60.1678693,
+      "lon": 24.9291088,
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-helsinki-royal/dining/restaurant-nord",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/8042297",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Fresh coordinate-only query Runeberginkatu 2, Helsinki, Finland. Approximate address/building point, not a verified dining entrance or restaurant identity. Query reference: https://nominatim.openstreetmap.org/search?q=Runeberginkatu+2%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/8042297",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-named-restaurant-page",
+          "url": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-helsinki-royal/dining/restaurant-nord",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current hotel operator explicitly names public à la carte Restaurant NORD at exact street and links table booking. Older Bistro Johan municipal label is not counted as another current evening restaurant. Breakfast room identity remains distinct/unresolved; no automatic rename or second breakfast entry."
+        },
+        {
+          "source": "operator-official-restaurant-listing",
+          "url": "https://www.raflaamo.fi/en/restaurant/helsinki/restaurant-nord",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Working linked current named restaurant reference confirms public dining. No hotel locator compilation, description or menu contents copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
     }
   ]
 }
