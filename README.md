@@ -4,6 +4,8 @@ A small, community-maintained list of restaurant locations and links for Finland
 
 ## Data
 
+Discovery writes only unverified reports under `.local/`, preserves review evidence and missing reviewed leads, and backs up reports before replacement. It cannot write to the published directory. Run `npm test` and `npm run validate` before publishing. The `Dataset integrity` CI check rejects lost collected records, links, photos or source history; deliberate removals require an explicit reviewed maintenance change. Live and staging use their corresponding data branches, so preserve branch-specific corrections when promoting snapshots.
+
 The current file is [`data/restaurants.json`](data/restaurants.json). It records restaurant facts with a source record for each field. Restaurant IDs are Lunumi IDs; source IDs such as OSM are optional cross-references and never define a place's identity. Menu contents, descriptions, and dietary claims are not copied into the dataset. Reviewed photo links may be included with creator and license metadata; the image files remain hosted by Wikimedia Commons.
 
 Each place has source URLs and `checkedAt` dates. Every field is tied to its source. Use an official restaurant or branch page for business facts only when its reuse terms allow that. When a source restricts copying or redistribution, use an openly licensed source such as OpenStreetMap for the record fields and consult the official page only to confirm that the location is currently operating. Coordinates include their source and license. A feed is labeled as a lunch feed only when it actually publishes lunch menus; the Pancho Villa feed is a general menu feed.
@@ -49,4 +51,4 @@ Links to restaurant websites and Commons file pages are references; the database
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md). One record represents one location. Please submit corrections or new records as a pull request and include the source pages and date checked.
 
-This repository is maintained separately from the Lunumi app. Lunumi's Pages build checks out the public `main` branch and packages this file into both live and staging sites.
+This repository is maintained separately from the Lunumi app. Lunumi's Pages build packages the `main` data branch into live and the `staging` data branch into staging.

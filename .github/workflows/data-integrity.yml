@@ -1,0 +1,30 @@
+name: Data integrity
+on:
+  pull_request:
+    branches: [main, staging]
+  push:
+    branches: [main, staging]
+permissions:
+  contents: read
+jobs:
+  integrity:
+    name: Dataset integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+      - run: npm run validate
+      - name: Preserve collected records and provenance
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [[ -n "$BASE_SHA" && "$BASE_SHA" != "0000000000000000000000000000000000000000" ]]; then
+            git show "$BASE_SHA:data/restaurants.json" > "$RUNNER_TEMP/baseline.json"
+            node scripts/validate-continuity.mjs data/restaurants.json "$RUNNER_TEMP/baseline.json"
+          fi
