@@ -84031,11 +84031,30 @@
           ],
           "checkedAt": "2026-10-28",
           "note": "Names Fazer Café Fazerila at visitor centre and exact matching Fazerintie 6 premises. The centre, shop and cafe are not counted as separate restaurants."
+        },
+        {
+          "source": "Wikimedia Commons file page",
+          "url": "https://commons.wikimedia.org/wiki/File:Fazer_Experience_Visitor_Centre_-_Fazerintie_6,_01230_Vantaa_-_Fazerila_-_Vantaa.jpg",
+          "fields": [
+            "photo"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Individually reviewed shared venue exterior, creator and reuse license; HTTP 200 thumbnail. Historical 2019 photograph, externally hosted.",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Paju~commonswiki"
         }
       ],
       "checkedAt": "2026-10-28",
       "validated": true,
-      "lastValidatedAt": "2026-10-28"
+      "lastValidatedAt": "2026-10-28",
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fazer_Experience_Visitor_Centre_-_Fazerintie_6%2C_01230_Vantaa_-_Fazerila_-_Vantaa.jpg/960px-Fazer_Experience_Visitor_Centre_-_Fazerintie_6%2C_01230_Vantaa_-_Fazerila_-_Vantaa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fazer_Experience_Visitor_Centre_-_Fazerintie_6,_01230_Vantaa_-_Fazerila_-_Vantaa.jpg",
+        "attribution": "Paju~commonswiki",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "note": "Shared Fazer Experience visitor-centre exterior, photographed in 2019. The cafe is inside this building; this is not a cafe-interior or current-appearance photograph."
+      }
     },
     {
       "id": "frd:vantaa:kuninkaan-lohet-vanha-viilatehdas",
@@ -84445,6 +84464,372 @@
           ],
           "checkedAt": "2026-10-28",
           "note": "Current Sello branch gives matching Leppävaarankatu 3-9 address and phone 0414782231."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:momochi-sello",
+      "name": "Momochi",
+      "branch": "Sello, first floor",
+      "city": "Espoo",
+      "category": "cafe",
+      "address": {
+        "street": "Leppävaarankatu 3-9",
+        "postalCode": "02600",
+        "country": "FI"
+      },
+      "website": "https://momochi.fi/",
+      "menuUrl": "https://momochi.fi/sando/",
+      "lat": 60.2180999,
+      "lon": 24.8121519,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/6090324793",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 discovery snapshot; operation checked separately.",
+          "recordId": "node/6090324793",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-store-locator",
+          "url": "https://momochi.fi/",
+          "fields": [
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Live HTTP 200 page confirms separately named Forum and Sello stores with exact matching addresses and distinct phone numbers. Public operator site works despite web-rendering timeouts."
+        },
+        {
+          "source": "operator-official-prepared-food-page",
+          "url": "https://momochi.fi/sando/",
+          "fields": [
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "First-party page explicitly describes savoury lunch sandwiches; resolves dessert-only uncertainty. Link only, no menu contents or dietary labels copied."
+        },
+        {
+          "source": "venue-official-named-cafe-page",
+          "url": "https://www.sello.fi/ravintolat-espoo/momochi",
+          "fields": [
+            "branch",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Named branch page independently confirms prepared lunch sandwiches."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:momochi-forum",
+      "name": "Momochi",
+      "branch": "Forum, first floor, Simonkatu entrance",
+      "city": "Helsinki",
+      "category": "cafe",
+      "address": {
+        "street": "Mannerheimintie 20",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://momochi.fi/",
+      "menuUrl": "https://momochi.fi/sando/",
+      "lat": 60.1694785,
+      "lon": 24.9378326,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/303146160",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 discovery snapshot; operation checked separately.",
+          "recordId": "node/303146160",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-store-locator",
+          "url": "https://momochi.fi/",
+          "fields": [
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Live HTTP 200 page confirms separately named Forum and Sello stores with exact matching addresses and distinct phone numbers. Public operator site works despite web-rendering timeouts."
+        },
+        {
+          "source": "operator-official-prepared-food-page",
+          "url": "https://momochi.fi/sando/",
+          "fields": [
+            "menuUrl",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "First-party page explicitly describes savoury lunch sandwiches; resolves dessert-only uncertainty. Link only, no menu contents or dietary labels copied."
+        },
+        {
+          "source": "venue-official-named-cafe-page",
+          "url": "https://www.forum.fi/liikkeet/momochi/",
+          "fields": [
+            "branch",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Named branch page confirms Forum cafe at Simonkatu entrance; branch identity independently matches operator locator."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:espoo:kung-food-panda-iso-omena",
+      "name": "Kung Food Panda Buffet",
+      "branch": "Iso Omena, floor -1",
+      "city": "Espoo",
+      "category": "restaurant",
+      "address": {
+        "street": "Piispansilta 11",
+        "postalCode": "02230",
+        "country": "FI"
+      },
+      "website": "https://www.isoomena.fi/en/store/kung-food-panda-buffet-3/",
+      "lat": 60.1612852,
+      "lon": 24.7383384,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/way/1011337729",
+          "fields": [
+            "city",
+            "category",
+            "address"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 discovery snapshot; operation checked separately.",
+          "recordId": "way/1011337729",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/8034765",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Address/mall query fetched earlier on 2026-10-28, Piispansilta 11, Espoo, Finland. Shared approximate mall point, not an entrance or restaurant identity; no old outlet coordinates transferred. Query reference: https://nominatim.openstreetmap.org/search?q=Piispansilta+11%2C+Espoo%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/8034765",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-named-dining-page",
+          "url": "https://www.isoomena.fi/en/store/kung-food-panda-buffet-3/",
+          "fields": [
+            "name",
+            "branch",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named host confirms prepared meals and floor -1. Previous apparent floor/point conflict is handled by retaining an explicit approximate mall point and authoritative floor. Old kungfoodpanda.fi failed; host links distinct kungfoodpandat.fi, whose reachability remains unconfirmed."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:seoul-good-redi",
+      "name": "Seoul Good",
+      "branch": "Redi, first floor",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Hermannin rantatie 5",
+        "postalCode": "00580",
+        "country": "FI"
+      },
+      "website": "https://www.seoulgood.fi/",
+      "lat": 60.1869567,
+      "lon": 24.9792379,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/1449865954",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only query Hermannin rantatie 5, Helsinki, Finland. Approximate address/mall point, not a verified restaurant entrance; unrelated businesses returned by the query are not identity evidence. Query reference: https://nominatim.openstreetmap.org/search?q=Hermannin+rantatie+5%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/1449865954",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-branch-locator",
+          "url": "https://www.seoulgood.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current locator explicitly names branch and exact address. Basic facts manually typed; no descriptions, menu text, hours or photos copied."
+        },
+        {
+          "source": "venue-official-named-dining-page",
+          "url": "https://www.redi.fi/en/stores-and-services/seoul-good/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named host independently confirms prepared meals and branch floor."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:seoul-good-kamppi",
+      "name": "Seoul Good",
+      "branch": "Kamppi",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Fredrikinkatu 49",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.seoulgood.fi/",
+      "lat": 60.1665671,
+      "lon": 24.9341532,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/310042835",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only query Fredrikinkatu 49, Helsinki, Finland. Approximate address/mall point, not a verified restaurant entrance; unrelated businesses returned by the query are not identity evidence. Query reference: https://nominatim.openstreetmap.org/search?q=Fredrikinkatu+49%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/310042835",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-branch-locator",
+          "url": "https://www.seoulgood.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current locator explicitly names branch and exact address. Basic facts manually typed; no descriptions, menu text, hours or photos copied."
+        },
+        {
+          "source": "merchant-named-meal-and-address-page",
+          "url": "https://wolt.com/en/fin/helsinki/restaurant/seoul-good-kamppi",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Direct named merchant page confirms prepared meals and same Fredrikinkatu 49 premises. No claim of continuity with prior Kimchi BBQ business; no old restaurant point transferred."
+        }
+      ],
+      "checkedAt": "2026-10-28",
+      "validated": true,
+      "lastValidatedAt": "2026-10-28"
+    },
+    {
+      "id": "frd:helsinki:seoul-good-kluuvi",
+      "name": "Seoul Good",
+      "branch": "Kluuvi, first floor",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Aleksanterinkatu 9",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "website": "https://www.seoulgood.fi/",
+      "lat": 60.1693056,
+      "lon": 24.9483429,
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/22273017",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Fresh coordinate-only query Aleksanterinkatu 9, Helsinki, Finland. Approximate address/mall point, not a verified restaurant entrance; unrelated businesses returned by the query are not identity evidence. Query reference: https://nominatim.openstreetmap.org/search?q=Aleksanterinkatu+9%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/22273017",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-branch-locator",
+          "url": "https://www.seoulgood.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current locator explicitly names branch and exact address. Basic facts manually typed; no descriptions, menu text, hours or photos copied."
+        },
+        {
+          "source": "venue-official-named-dining-page",
+          "url": "https://www.kluuvi.fi/en/restaurants-and-cafes/seoul-good/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Current named host independently confirms prepared meals and branch floor."
         }
       ],
       "checkedAt": "2026-10-28",
