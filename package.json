@@ -6,6 +6,7 @@
     "node": ">=22.15"
   },
   "scripts": {
+    "test": "node --test scripts/safeguards.test.mjs",
     "discover": "node --use-system-ca scripts/discover-candidates.mjs",
     "discover:osm": "node --use-system-ca scripts/discover-osm-candidates.mjs",
     "validate": "node scripts/validate-dataset.mjs"
