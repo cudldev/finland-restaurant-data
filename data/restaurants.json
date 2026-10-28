@@ -85276,6 +85276,451 @@
       "checkedAt": "2026-10-29",
       "validated": true,
       "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:bistro-elo-valo",
+      "name": "Bistro ELO",
+      "branch": "VALO Hotel & Work, first floor",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Mannerheimintie 109",
+        "postalCode": "00280",
+        "country": "FI"
+      },
+      "lat": 60.2057074,
+      "lon": 24.8998397,
+      "website": "https://bistroelo.fi/",
+      "menuUrl": "https://bistroelo.fi/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/778584088",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Location-only query Mannerheimintie 109, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Mannerheimintie+109%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/778584088",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-or-branch-page",
+          "url": "https://bistroelo.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Named operator confirms public lunch and dinner at exact hotel address. Explicit 29 October 2026 private evening exception means this record must not be interpreted as open right now. No hours, menu contents, prices or dietary labels copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:kustaa-vaasa",
+      "name": "Bistro & Baari Kustaa Vaasa",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Vaasankatu 10",
+        "postalCode": "00500",
+        "country": "FI"
+      },
+      "lat": 60.1882357,
+      "lon": 24.9570853,
+      "website": "https://kustaavaasa.fi/",
+      "menuUrl": "https://kustaavaasa.fi/menu/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/174800360",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Location-only query Vaasankatu 10, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Vaasankatu+10%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/174800360",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-or-branch-page",
+          "url": "https://kustaavaasa.fi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Working bare domain confirms exact street and public prepared meals, resolving unavailable www URL. Basic facts typed manually; food text and images not copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:ginza-sushi-bar-kluuvi",
+      "name": "Ginza Sushi Bar",
+      "branch": "Kluuvi, second floor, Yliopistonkatu entrance",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Yliopistonkatu 6",
+        "postalCode": "00100",
+        "country": "FI"
+      },
+      "lat": 60.1697834,
+      "lon": 24.9481362,
+      "website": "https://ginzasushibar.fi/etusivu/kluuvi/",
+      "menuUrl": "https://ginzasushibar.fi/menu-ayce-dinner-kluuvi/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/7271505157",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Location-only query Yliopistonkatu 6, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Yliopistonkatu+6%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/7271505157",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-or-branch-page",
+          "url": "https://ginzasushibar.fi/etusivu/kluuvi/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current operator names Kluuvi restaurant at Yliopistonkatu 6, second floor. Municipal Aleksanterinkatu 9 is the shared centre address, not a second branch. Distinct from existing Ginza Sushi Express Itis; dinner menu URL is not labelled a lunch feed."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:brokadi-tripla",
+      "name": "Brokadi Tripla",
+      "branch": "Mall of Tripla, floor 4.5",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Fredikanterassi 1",
+        "postalCode": "00520",
+        "country": "FI"
+      },
+      "lat": 60.1983762,
+      "lon": 24.9302954,
+      "website": "https://malloftripla.fi/en/stores-services/cafes-and-restaurants/brokadi-tripla/-/d8",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/relation/19097175",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Location-only query Fredikanterassi 1, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Fredikanterassi+1%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "relation/19097175",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-named-dining-page",
+          "url": "https://malloftripla.fi/en/stores-services/cafes-and-restaurants/brokadi-tripla/-/d8",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current named mall tenant page confirms one restaurant on floor 4.5 with phone 0442388908 and prepared meals. Two mapped nodes are cross-references to one reviewed tenant, not two restaurants; fresh shared mall coordinates avoid choosing a disputed restaurant point. Linked operator brokadia.com remains unavailable; no closure inferred."
+        },
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/6977655469",
+          "fields": [
+            "name",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 snapshot; current operation checked separately.",
+          "recordId": "node/6977655469",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/10577675571",
+          "fields": [
+            "name",
+            "category"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 snapshot; current operation checked separately.",
+          "recordId": "node/10577675571",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "venue-official-centre-address",
+          "url": "https://malloftripla.fi/en/info-en",
+          "fields": [
+            "address",
+            "city"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Host centre explicitly gives Fredikanterassi 1, 00520 Helsinki; named tenant page establishes Brokadi within this centre."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:elias-doner-kebab-vuosaari",
+      "name": "Elias Döner Kebab",
+      "branch": "Vuosaari",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Kahvipavunkuja 2",
+        "postalCode": "00990",
+        "country": "FI"
+      },
+      "lat": 60.2053213,
+      "lon": 25.1478495,
+      "website": "https://www.eliasdonerkebab.fi/restaurants",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/916683639",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Location-only query Kahvipavunkuja 2, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Kahvipavunkuja+2%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/916683639",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-or-branch-page",
+          "url": "https://www.eliasdonerkebab.fi/restaurants",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current operator explicitly names Vuosaari branch, exact address and phone 0413100392; municipal named venue independently corroborates. Shared address also has existing Ragazza record; do not infer succession, duplicate identity or closure from that address alone. Distinct-business/unit continuity remains a tracked follow-up."
+        },
+        {
+          "source": "municipal-named-branch-page",
+          "url": "https://tpr.hel.fi/TPRalusta/en/notification/info/11966/",
+          "fields": [
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Independent named location evidence; no municipal descriptive text or compiled fields copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:bistro-qulma",
+      "name": "Bistro Qulma",
+      "branch": "Evening bistro",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Mariankatu 13 B",
+        "postalCode": "00170",
+        "country": "FI"
+      },
+      "lat": 60.1714054,
+      "lon": 24.95684,
+      "website": "https://bistroqulma.com/",
+      "menuUrl": "https://bistroqulma.com/",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/node/8275495803",
+          "fields": [
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Location-only query Mariankatu 13 B, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Mariankatu+13+B%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "node/8275495803",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-or-branch-page",
+          "url": "https://bistroqulma.com/",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus",
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current operator confirms named evening bistro and exact 13B contact address. Old Qulma lunch map entry is not used to claim current lunch service or business continuity; coordinate comes from fresh numbered-address point, not another cafe returned by geocoder."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:elias-doner-kebab-redi",
+      "name": "Elias Döner Kebab",
+      "branch": "Redi",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Hermannin rantatie 5",
+        "postalCode": "00580",
+        "country": "FI"
+      },
+      "lat": 60.1869567,
+      "lon": 24.9792379,
+      "website": "https://www.eliasdonerkebab.fi/restaurants",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Nominatim address geocoding",
+          "url": "https://www.openstreetmap.org/way/1449865954",
+          "fields": [
+            "lat",
+            "lon",
+            "address"
+          ],
+          "checkedAt": "2026-10-28",
+          "note": "Location-only query Hermannin rantatie 5, Helsinki, Finland. Approximate address/building or mall point, not a dining entrance or evidence of business identity. Query reference: https://nominatim.openstreetmap.org/search?q=Hermannin+rantatie+5%2C+Helsinki%2C+Finland&format=jsonv2&limit=5&countrycodes=fi&addressdetails=1",
+          "recordId": "way/1449865954",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-dining-or-branch-page",
+          "url": "https://www.eliasdonerkebab.fi/restaurants",
+          "fields": [
+            "name",
+            "branch",
+            "city",
+            "category",
+            "address",
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Current operator names Redi branch and Hermannin rantatie, with phone 0469365109. Municipal named branch gives Hermannin rantatie 5; mall number corroborated by coordinate query. Shared mall point was freshly queried on 28 October, not an old restaurant coordinate."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
+    },
+    {
+      "id": "frd:helsinki:georgian-kitchen-albertinkatu",
+      "name": "Georgian Kitchen",
+      "city": "Helsinki",
+      "category": "restaurant",
+      "address": {
+        "street": "Albertinkatu 7",
+        "postalCode": "00150",
+        "country": "FI"
+      },
+      "lat": 60.1604658,
+      "lon": 24.9388942,
+      "website": "https://www.georgiankitchen.fi/",
+      "menuUrl": "https://www.georgiankitchen.fi/menu",
+      "sourceRecords": [
+        {
+          "source": "OpenStreetMap Overpass API",
+          "url": "https://www.openstreetmap.org/node/7820431096",
+          "fields": [
+            "name",
+            "city",
+            "category",
+            "address",
+            "lat",
+            "lon"
+          ],
+          "checkedAt": "2026-10-26",
+          "note": "Reusable mapped facts from actual 2026-10-26 snapshot; current operation checked separately.",
+          "recordId": "node/7820431096",
+          "license": "ODbL-1.0",
+          "attribution": "© OpenStreetMap contributors"
+        },
+        {
+          "source": "operator-official-restaurant-contact-page",
+          "url": "https://www.georgiankitchen.fi/",
+          "fields": [
+            "website",
+            "operatingStatus"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Working www domain confirms exact Albertinkatu 7, 00150 Helsinki and table booking/current dining. Earlier bare-domain source failure is not closure; old holiday dates are not assumed current."
+        },
+        {
+          "source": "operator-official-menu-page",
+          "url": "https://www.georgiankitchen.fi/menu",
+          "fields": [
+            "menuUrl"
+          ],
+          "checkedAt": "2026-10-29",
+          "note": "Direct menu reference only. No descriptions, dishes, prices, hours or dietary claims copied."
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "validated": true,
+      "lastValidatedAt": "2026-10-29"
     }
   ]
 }
